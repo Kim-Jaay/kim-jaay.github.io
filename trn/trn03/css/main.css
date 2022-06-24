@@ -1,0 +1,158 @@
+html {
+    height: 5000px;
+}
+
+
+.container {
+    display: flex;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.inner {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+#header {
+    position: absolute;
+    line-height: 100px;
+    z-index: 1;
+    left: 360px;
+    right: 360px;
+    color: white;
+}
+
+#header .container h1 {
+    width: 135px;
+}
+
+#header nav {
+    margin: 0 0 0 auto;
+}
+
+#header nav>ul {
+    display: flex;
+}
+
+#header nav>ul>li>a {
+    padding: 0 20px;
+    font-size: 15px;
+}
+
+#header nav>ul>li~li::before {
+    display: inline-block;
+    content: "";
+    width: 1px;
+    height: 12px;
+    background: white;
+}
+
+#header .btn {
+    margin: 0 0 0 15px;
+}
+
+#header .btn i {
+    font-size: 15px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.mainVisual .mainSlider figure {
+    position: relative;
+    height: 970px;
+}
+
+.mainVisual .mainSlider .itm01 {
+    background: url(../img/mv01.jpg)no-repeat center center/cover;
+}
+
+.mainVisual .mainSlider .itm02 {
+    background: url(../img/mv02.jpg)no-repeat center center/cover;
+}
+
+.mainVisual .mainSlider .itm03 {
+    background: url(../img/mv03.jpg)no-repeat center center/cover;
+}
+
+.mainVisual .mainSlider .inner {
+    position: absolute;
+    inset: 50% auto auto 50%;
+    transform: translate(-50%, -50%);
+}
+
+.mainVisual .mainSlider .inner h2 {
+    font-size: 50px;
+    font-weight: 200;
+    color: white;
+    line-height: 1.4;
+    margin: 0 0 40px 0;
+}
+
+.mainVisual .mainSlider .inner p {
+    font-size: 15px;
+    font-weight: 200;
+    color: white;
+    line-height: 1.4;
+}
+
+.mainVisual .mainSlider .slick-dots {
+    position: absolute;
+    inset: auto auto 100px 50%;
+}
+
+.mainVisual .mainSlider .slick-dots li {
+    display: inline-block;
+}
+
+.mainVisual .mainSlider .slick-dots button {
+    border-radius: 50%;
+    outline: none;
+    border: none;
+    width: 10px;
+    height: 10px;
+    font-size: 0;
+    margin: 0 5px;
+    background: white;
+}
+
+.mainVisual .mainSlider .slick-dots li.slick-active button {
+    background: transparent;
+    border: 1px solid white;
+}
+
+/* .mainVisual .mainArrow i {
+    position: absolute;
+    inset: 50% auto auto 50%;
+    transform: translate(-50% -50%);
+} */
+
+.mainVisual .mainSlider .slick-prev {
+    position: absolute;
+    z-index: 1;
+    inset: auto auto 100px 49%;
+    outline: none;
+    border: none;
+    width: 10px;
+    height: 10px;
+    font-size: 0;
+    background: none;
+    border-top: 1px solid white;
+    border-left: 1px solid white;
+    transform: rotate(-45deg);
+}
+
+.mainVisual .mainSlider .slick-next {
+    position: absolute;
+    z-index: 1;
+    inset: auto auto 100px 53%;
+    outline: none;
+    border: none;
+    width: 10px;
+    height: 10px;
+    font-size: 0;
+    background: none;
+    border-top: 1px solid white;
+    border-left: 1px solid white;
+    transform: rotate(135deg);
+}

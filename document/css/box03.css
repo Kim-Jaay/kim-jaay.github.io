@@ -1,0 +1,115 @@
+body {
+    line-height: 150%;
+}
+
+.basic00 {
+    display: flex;
+    width: 1920px;
+    margin: 0 auto;
+
+}
+
+.basic01 {
+    padding: 100px 0;
+    background: #f7f7f7;
+    text-align: center;
+}
+
+.basic02 {
+    padding: 100px 0;
+    text-align: center;
+}
+.basic03 {
+    padding: 100px 0;
+    background: #B6D3D8;
+    text-align: center;
+}
+
+.basic01 h2 {
+    font-size: 21px;
+    font-weight: bold;
+    margin: 0 0 20px 0;
+}
+
+.basic02 h2 {
+    font-size: 21px;
+    font-weight: bold;
+    margin: 0 0 20px 0;
+}
+.basic03 h2 {
+    text-transform: uppercase;
+    font-size: 21px;
+    font-weight: bold;
+    color: #fff;
+    margin: 0 0 20px 0;
+}
+
+.basic01 p {
+    font-size: 14px;
+    margin: 0 0 30px 0;
+    color: #848484;
+}
+
+.basic02 p {
+    font-size: 14px;
+    margin: 0 0 30px 0;
+    color: #848484;
+}
+.basic03 p {
+    font-size: 14px;
+    margin: 0 0 30px 0;
+    color: #fff;
+}
+
+.basic01 .container {
+    display: flex;
+    gap: 30px;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.basic02 .container {
+    display: flex;
+    gap: 30px;
+    width: 1200px;
+    margin: 0 auto;
+}
+.basic02 .container0 {
+    display: flex;
+    width: 1200px;
+    margin: 0 auto 30px auto;
+}
+
+.basic01 .container img {
+    width: 100%;
+}
+
+.basic02 .container img {
+    width: 100%;
+}
+.basic02 .container0 img {
+    width: 100%;
+}
+
+.basic01 figure {
+    flex: 1;
+}
+
+.basic02 figure {
+    flex: 1;
+}
+
+.view01 {
+    background: #fff;
+    color: #4EA4B0;
+    padding: 10px;
+    width: 200px;
+    border: 1px solid #4EA4B0;
+    margin: auto auto 80px auto;
+}
+
+.basic03 hr {
+    width: 30px;
+    margin: auto auto 25px auto;
+    background-color: #fff;
+}

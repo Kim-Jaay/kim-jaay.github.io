@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<!-- html5 사용 -->
+<html lang="ko">
+<!-- language en영어/ko한글 -->
+
+<head>
+    <!-- head 설정: 매트릭스 고스트 -->
+    <meta charset="UTF-8">
+    <!-- font -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- 인터넷익스플로러 일때 엣지 별 의미없음 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- **반응형 -->
+    <title>HTML Basic</title>
+    <!-- 타이틀 제일 중요! 검색 시 이름부분 -->
+</head>
+
+<body>
+    <!-- html 태그가 나오는 부분 -->
+    <h1>HTML Basic</h1>
+    <a href="../document/index.html">김주현</a>
+    <hr />
+    <h2>기본 박스 : box-model</h2>
+    <p>2022.06.02</p>
+    <ul>
+        <li><a href="./doc/box01.html" target=" _blank">Basic Box01</a>
+            <p>기본적인 박스의 성질에 대한 이해! [width height padding margin]</p>
+            <P>width 가로 값 / height 높이 값 / padding 안쪽 여백 / margin 바깥쪽 여백 </P>
+        </li>
+        <li><a href="./doc/box02.html" target=" _blank">Basic Box02</a>
+            <p>선택자에 대한 이해</p>
+            <P>속성값을 주기 위해 부르는 용도(이름) 제일 많이 쓰이는 '후손 선택자' class, id(중복 불가) ~, +(인접 형제 선택자)</P>
+        </li>
+    </ul>
+
+    <h2>ETC</h2>
+    <ul>
+        <li><a href="./doc/test01.html" target="_blank">Multi Column Menu Test01</a></li>
+        <li><a href="./doc/multi_menu01.html" target="_blank">Multi Column01</a></li>
+        <li><a href="./doc/multi_menu02.html" target="_blank">Multi Column02</a></li>
+    </ul>
+    <hr>
+
+
+    <h2>DISPLAY</h2>
+    <p>2022.06.03</p>
+    <ul>
+        <li>
+            <a href="./doc/display01.html" target="black">display01</a>
+            <p>inline, block, inline-block</p>
+        </li>
+    </ul>
+
+
+    <h2>POSITION</h2>
+    <ul>
+        <li>
+            <a href="./doc/position01.html" target="_blank">position01</a>
+            <p>position: relative, absoloute, fixed, sticky</p>
+        </li>
+        <li>
+            <a href="./doc/position02.html" target="_blank">position02</a>
+            <p>sticky</p>
+        </li>
+        <li>
+            <a href="./doc/position03.html" target="_blank">position03_MANGO</a>
+            <p>position</p>
+        </li>
+    </ul>
+    <hr>
+
+    <h2>HOVER</h2>
+    <p>2022.06.07</p>
+    <ul>
+        <li>
+            <a href="./doc/hover01.html" target="black">HOVER01</a>
+            <p>hover를 사용해서 position 이해하기</p>
+            <p>position+hover로 박스(이미지)에 그라디언트 라인등 다양한 효과 주기<br>transition, ::before, ::after을 활용해서 라인 애니메이션 주기</p>
+        </li>
+    </ul>
+    <hr>
+
+    <h2>PSD to Html / PSEUDO ELEMENT</h2>
+    <p>2022.06.08</p>
+    <ul>
+        <li>
+            <a href="./doc/psdtohtml01.html" target="black">PSD to Html 01</a>
+            <p>photoshop 시안 잡고 html 코딩해보기</p>
+            <p>photoshop으로 grid system 및 시안제작 후 html로 구축해보기</p>
+        </li>
+        <li>
+            <a href="./doc/pseudo_element01.html" target="black">Pseudo Element 01</a>
+            <p>가상요소선택자 연습해보기</p>
+            <p>::before / ::after 여러가지 방법으로 표현하기</p>
+        </li>
+    </ul>
+
+    <p>2022.06.09</p>
+    <ul>
+        <li>
+            <a href="./doc/psdtohtml02.html" target="black">PSD to Html 02</a>
+            <p>photoshop 시안 잡고 html 코딩해보기</p>
+            <p>photoshop으로 grid system 및 시안제작 후 html로 구축해보기</p>
+        </li>
+    </ul>
+    <hr>
+
+    <h2>Header Frame</h2>
+    <p>2022.06.09</p>
+    <ul>
+        <li><a href="./doc/header01.html" target="black">Header01</a>
+            <p>logo 좌배치 / nav 우배치 : justify-content: space-between </p>
+        </li>
+        <li><a href="./doc/header02.html" target="black">Header02</a>
+            <p>logo 좌배치 / nav 우배치 : margin 0 0 0 auto / icon 우배치 : margin 0 0 0 40px(gap 값) </p>
+        </li>
+        <li><a href="./doc/header03.html" target="black">Header03</a>
+            <p>logo 좌배치 width값 / 아이콘 우배치 width값 / nav중앙배치 nav>ul flex;gap; / nav>ul a {display block} --> 전체 싸는
+                contianer space-between</p>
+        </li>
+        <li><a href="./doc/header04.html" target="black">Header04</a>
+            <p>logo 좌배치 / 아이콘 우배치 / nav 동일간격배치 nav margin 0 auto / nav>ul flex; gap; / nav>ul a {display:block} --> 전체
+                싸는 container margin 0 auto </p>
+        </li>
+        <li><a href="./doc/header05.html" target="black">Header05</a>
+            <p>logo 중앙 : text-align center / nav 양끝배치 -> nav>* flex:1 / nav>ul : flex; gap40; nav>ul(우측네비)
+                justify-content: flex-end; </p>
+        </li>
+    </ul>
+    <hr>
+
+    <h2>multi_menu03</h2>
+    <p>2022.06.10</p>
+    <ul>
+        <li>
+            <a href="./doc/multi_menu03.html" target="_blank">multi_menu03</a>
+            <p>pc/mobile 반응형 다단메뉴 만들기</p>
+        </li>
+    </ul>
+    <hr>
+
+    <h2>Slick Slide</h2>
+    <p>2022.06.13</p>
+    <ul>
+        <li>
+            <a href="./doc/slick01.html" target="_blank">Slick 01</a>
+            <p>Slick Slide 사용해보기.</p>
+        </li>
+    </ul>
+
+    <p>2022.06.14</p>
+    <ul>
+        <li>
+            <a href="./doc/slick02.html" target="_blank">Slick 02</a>
+            <p>Slick Slide 사용해보기!!</p>
+        </li>
+    </ul>
+
+    <p>2022.06.15</p>
+    <ul>
+        <li>
+            <a href="./doc/slick03.html" target="_blank">Slick 03</a>
+            <p>Slick Slide Main Visual 만들어보기</p>
+        </li>
+    </ul>
+    <hr>
+
+    <h2>Movie</h2>
+    <p>2022.06.16</p>
+    <ul>
+        <li>
+            <a href="./doc/movie01.html" target="_blank">Movie 01</a>
+            <p>영상 넣어보기</p>
+        </li>
+    </ul>
+    <hr>
+
+    <h2>Full Page</h2>
+    <p>2022.06.16</p>
+    <ul>
+        <li>
+            <a href="./doc/fullpage01.html" target="_blank">FUll Page 01</a>
+            <p>Full Page Design</p>
+        </li>
+    </ul>
+    <hr>
+
+    <h2>Tab Menu</h2>
+    <p>2022.06.17</p>
+    <ul>
+        <li>
+            <a href="./doc/tab01.html" target="_blank">Tab Menu 01</a>
+            <p>탭메뉴 만들어보기</p>
+        </li>
+    </ul>
+    <ul>
+        <li>
+            <a href="./doc/tab02.html" target="_blank">Tab Menu 02</a>
+            <p>탭메뉴(슬라이드) 만들어보기</p>
+        </li>
+    </ul>
+    <ul>
+        <li>
+            <a href="./doc/tab03.html" target="_blank">Tab Menu 03</a>
+            <p>탭메뉴(지도) 만들어보기</p>
+        </li>
+    </ul>
+    <hr>
+
+
+</body>
+
+</html>
