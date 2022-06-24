@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>position 02</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .sticky {
+            position: sticky;
+            top: 0;
+            left: 0;
+            height: 100vh;
+            color: #fff;
+            text-align: center;
+            line-height: 100vh;
+
+        }
+
+        header {
+            background: #f00;
+        }
+
+        main {
+            background: #ff0;
+        }
+
+        footer {
+            background: #00f;
+        }
+
+        .container {
+            display: flex;
+        }
+
+        .container figure {
+            flex: 1;
+            line-height: 1.4;
+        }
+
+        .container figure:nth-child(2) {
+            background: #333;
+            height: 100vh;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="sticky">
+        header
+    </header>
+
+    <main class="sticky">
+    </main>
+
+    <section class="sticky">
+        <div class="container">
+            <figure>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque doloremque obcaecati doloribus
+                praesentium delectus eos unde temporibus, quisquam incidunt neque voluptate nulla accusantium
+                necessitatibus voluptatem blanditiis aspernatur molestiae odio inventore quibusdam optio fugit excepturi
+                saepe minus! Amet eius in voluptatem magni dolore consequatur tempora? Tenetur corrupti dicta nostrum
+                dolores ducimus inventore, perferendis saepe maxime aperiam, nisi culpa explicabo iusto eius provident
+                delectus praesentium! Itaque, minima doloribus? Beatae dolores eius cumque quasi, sed debitis doloribus
+                doloremque aperiam dignissimos, assumenda nam, iure sapiente enim magnam praesentium? Voluptatibus qui
+                molestiae natus magnam numquam? Nam at facilis dolore, pariatur accusantium id saepe quas, consectetur
+                adipisci amet iure sint quasi officiis explicabo, autem neque consequuntur ipsa provident perferendis
+                iste vitae? Maiores nobis perferendis enim iusto eos quis iure nesciunt illum sapiente tenetur
+                architecto deleniti maxime odit est facere tempora vel, magni temporibus laborum dolor! Similique vitae
+                ipsum dolor eveniet id obcaecati vero minima quia dolorem esse, eos perferendis consequatur libero
+                deleniti eius, sequi sunt voluptatem. At ducimus inventore deserunt aperiam, amet repellat esse
+                provident quae natus aspernatur eos enim ut adipisci. Minima tempora quia numquam consequatur, tempore,
+                ab dolorem itaque hic est voluptas repellendus voluptatum porro perspiciatis voluptate ratione! Veniam
+                vel itaque adipisci ut? Quis.
+            </figure>
+
+            <figure>
+            </figure>
+        </div>
+    </section>
+
+    <footer class="sticky">
+    </footer>
+</body>
+
+</html>
