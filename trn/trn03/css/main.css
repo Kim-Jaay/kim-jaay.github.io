@@ -2,7 +2,6 @@ html {
     height: 5000px;
 }
 
-
 .container {
     display: flex;
     width: 1200px;
@@ -68,11 +67,11 @@ html {
 }
 
 .mainVisual .mainSlider .itm02 {
-    background: url(../img/mv02.jpg)no-repeat center center/cover;
+    background: url(../img/mv02.jpeg)no-repeat center center/cover;
 }
 
 .mainVisual .mainSlider .itm03 {
-    background: url(../img/mv03.jpg)no-repeat center center/cover;
+    background: url(../img/mv03.jpeg)no-repeat center center/cover;
 }
 
 .mainVisual .mainSlider .inner {
@@ -95,6 +94,7 @@ html {
     color: white;
     line-height: 1.4;
 }
+
 
 .mainVisual .mainSlider .slick-dots {
     position: absolute;
@@ -120,12 +120,6 @@ html {
     background: transparent;
     border: 1px solid white;
 }
-
-/* .mainVisual .mainArrow i {
-    position: absolute;
-    inset: 50% auto auto 50%;
-    transform: translate(-50% -50%);
-} */
 
 .mainVisual .mainSlider .slick-prev {
     position: absolute;
