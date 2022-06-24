@@ -753,3 +753,10 @@ html {
 #footer .bottom address {
     font-style: normal;
 }
+
+#footer .bottom select {
+    background: transparent;
+    color: #ddd;
+    padding: 0 15px;
+    border: 1px solid #666;
+}
