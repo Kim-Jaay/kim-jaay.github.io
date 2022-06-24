@@ -56,15 +56,15 @@
 }
 
 .mainVisual .mainSlider .itm01 {
-    background: url(../img/mv01.jpg);
+    background: url(../img/mv01.jpg)no-repeat center center/cover;
 }
 
 .mainVisual .mainSlider .itm02 {
-    background: url(../img/mv02.jpg);
+    background: url(../img/mv02.jpg)no-repeat center center/cover;
 }
 
 .mainVisual .mainSlider .itm03 {
-    background: url(../img/mv03.jpg);
+    background: url(../img/mv03.jpg)no-repeat center center/cover;
 }
 
 .inner {
