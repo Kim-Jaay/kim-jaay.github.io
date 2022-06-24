@@ -720,26 +720,36 @@ html {
     background: #333;
     color: white;
     line-height: 80px;
+    font-size: 15px;
+}
+
+#footer .top {
+    border-bottom: 1px solid #959595;
 }
 
 #footer .top dt,
 #footer .top dd {
     display: inline-block;
-    padding: 0 15px 0 15px;
 }
 
 #footer .top dt::before,
 #footer .top dd~dd::before {
-    content: "/";
+    content: "";
     display: inline-block;
+    margin: 0 15px;
+    width: 1px;
+    height: 13px;
+    background: #ddd;
 }
 
-#footer .top dd:nth-child(1) {
-    padding: 0 15px 0 0;
+#footer .top i {
+    font-size: 25px;
 }
-
-#footer .top dl a {}
 
 #footer .container {
     justify-content: space-between;
+}
+
+#footer .bottom address {
+    font-style: normal;
 }
