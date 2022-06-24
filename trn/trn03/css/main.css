@@ -1,0 +1,93 @@
+.Wrap {}
+
+.container {
+    display: flex;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+#header .container {
+    display: flex;
+    position: absolute;
+    line-height: 100px;
+    z-index: 1;
+    color: white;
+    font-size: 15px;
+    font-weight: 300;
+    inset: 0 360px 0 360px;
+}
+
+#header .container nav {
+    margin: 0 0 0 auto;
+}
+
+.container .btn {
+    margin: 0 0 0 40px;
+}
+
+.container h1 {
+    width: 135px;
+}
+
+.container nav>ul {
+    display: flex;
+}
+
+.container nav>ul>li~li::before {
+    display: inline-block;
+    content: "";
+    width: 1px;
+    height: 13px;
+    background: white;
+    margin: 0 20px;
+}
+
+.container .btn i {
+    font-size: 15px;
+}
+
+.mainVisual .mainSlider {
+    position: relative;
+}
+
+.mainVisual .mainSlider figure {
+    position: relative;
+    height: 970px;
+}
+
+.mainVisual .mainSlider .itm01 {
+    background: url(../img/mv01.jpg);
+}
+
+.mainVisual .mainSlider .itm02 {
+    background: url(../img/mv02.jpg);
+}
+
+.mainVisual .mainSlider .itm03 {
+    background: url(../img/mv03.jpg);
+}
+
+.inner {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.mainVisual .mainSlider .inner {
+    position: absolute;
+    inset: 50% auto auto 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+.mainVisual .mainSlider .inner h2 {
+    font-size: 50px;
+    font-weight: 200;
+    line-height: 1.4;
+    margin: 0 0 40px 0;
+}
+
+.mainVisual .mainSlider .inner p {
+    font-size: 15px;
+    font-weight: 200;
+    line-height: 1.4;
+}
