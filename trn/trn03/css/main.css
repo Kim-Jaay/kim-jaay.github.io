@@ -1,6 +1,6 @@
-html {
+/* html {
     height: 5000px;
-}
+} */
 
 .container {
     display: flex;
@@ -67,17 +67,18 @@ html {
 }
 
 .mainVisual .mainSlider .itm02 {
-    background: url(../img/mv02.jpeg)no-repeat center center/cover;
+    background: url(../img/mv02.jpg)no-repeat center center/cover;
 }
 
 .mainVisual .mainSlider .itm03 {
-    background: url(../img/mv03.jpeg)no-repeat center center/cover;
+    background: url(../img/mv03.jpg)no-repeat center center/cover;
 }
 
 .mainVisual .mainSlider .inner {
     position: absolute;
     inset: 50% auto auto 50%;
     transform: translate(-50%, -50%);
+
 }
 
 .mainVisual .mainSlider .inner h2 {
@@ -99,6 +100,7 @@ html {
 .mainVisual .mainSlider .slick-dots {
     position: absolute;
     inset: auto auto 100px 50%;
+
 }
 
 .mainVisual .mainSlider .slick-dots li {
@@ -149,4 +151,56 @@ html {
     border-top: 1px solid white;
     border-left: 1px solid white;
     transform: rotate(135deg);
+}
+
+.section01 .container01 {
+    display: flex;
+    width: 1200px;
+    margin: 0 auto;
+    padding: 100px 0;
+    justify-content: space-between;
+}
+
+.section01 .container01 .inner01 {
+    margin: auto 0;
+}
+
+.section01 .container01 h2 {
+    font-size: 25px;
+    font-weight: 400;
+    margin: 0 0 30px 0;
+    transform: translate(-8px);
+}
+
+.section01 .container01 h2 span {
+    font-size: 50px;
+    font-weight: 500;
+}
+
+.section01 .container01 p {
+    font-size: 15px;
+    font-weight: 200;
+    color: #959595;
+    line-height: 1.4;
+    margin: 0 0 40px 0;
+}
+
+.section01 .container01 a {
+    display: inline-block;
+    padding: 8px 20px 10px 20px;
+    border-radius: 20px;
+    color: #959595;
+    background: transparent;
+    border: 1px solid #959595;
+}
+
+.section01 .container01 figure {
+    width: 480px;
+    height: 780px;
+    overflow: hidden;
+    border-radius: 240px 240px 0 0;
+}
+
+.section02 {
+    background: #f1f1f1;
 }
