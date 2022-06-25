@@ -8,5 +8,14 @@ $(function () {
         pauseOnFocus: false,
     });
 
+    $('.slider02').slick({
+        arrows: true,
+        autoplay: true,
+        dots: true,
+        pauseOnHover: false,
+        pauseOnFocus: false,
+        slidesToShow: 3,
+    });
+
 
 })
