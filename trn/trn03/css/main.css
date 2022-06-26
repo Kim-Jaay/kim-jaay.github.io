@@ -201,9 +201,7 @@
     border-radius: 240px 240px 0 0;
 }
 
-.section02 {
-    position: relative;
-}
+.section02 {}
 
 .section02 .container02 {
     width: 100%;
@@ -233,8 +231,10 @@
 }
 
 .section02 .container02 .slider02 {
-    position: absolute;
     width: 60%;
+    margin: -250px auto 0 -240px;
+    padding: 150px 0;
+    transform: translatey(-250px);
 }
 
 .section02 .container02 .slider02 figure {

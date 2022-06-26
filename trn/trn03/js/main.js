@@ -9,9 +9,8 @@ $(function () {
     });
 
     $('.slider02').slick({
-        arrows: true,
+        arrows: false,
         autoplay: true,
-        dots: true,
         pauseOnHover: false,
         pauseOnFocus: false,
         slidesToShow: 3,
