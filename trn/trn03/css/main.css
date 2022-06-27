@@ -125,7 +125,8 @@
 .mainVisual .mainSlider .slick-prev {
     position: absolute;
     z-index: 1;
-    inset: auto auto 100px 49%;
+    inset: auto auto 110px 47.5%;
+    transform: translate(-50%, -50%);
     outline: none;
     border: none;
     width: 10px;
@@ -140,7 +141,8 @@
 .mainVisual .mainSlider .slick-next {
     position: absolute;
     z-index: 1;
-    inset: auto auto 100px 53%;
+    inset: auto auto 110px 52%;
+    transform: translate(-50%, -50%);
     outline: none;
     border: none;
     width: 10px;
