@@ -424,7 +424,7 @@ html {
     width: 100%;
 }
 
-.seciton05 .slider05 figure.mv01 h2 {
+.seciton05 .slider05 .mv01 h2 {
     position: absolute;
     inset: 40% auto auto 38%;
     transform: translate(-50%, -50%);
@@ -442,7 +442,7 @@ html {
     color: white;
 }
 
-.seciton05 .slider05 figure.mv02 h2 {
+.seciton05 .slider05 .mv02 h2 {
     position: absolute;
     inset: 40% auto auto 45%;
     transform: translate(-50%, -50%);

@@ -25,4 +25,8 @@ $(function () {
     });
 
 
-})
+    // $('.slider05').on('init afterChange', function (e, s, c) {
+    //     $('.slider05 figure.slick-current').addClass('on').siblings().removeClass('on');
+    // })
+
+});
