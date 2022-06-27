@@ -1,3 +1,7 @@
+html {
+    height: 15000px;
+}
+
 .container {
     display: flex;
     width: 1200px;
@@ -278,6 +282,7 @@
     height: 40px;
     outline: none;
     border: none;
+    cursor: pointer;
 }
 
 .section02 .slick-prev {
@@ -290,8 +295,40 @@
     height: 40px;
     outline: none;
     border: none;
+    cursor: pointer;
 }
 
 .section02 .container02 .content {
     display: flex;
+}
+
+.section03 {
+    width: 100%;
+    height: 400px;
+    padding: 110px 100px;
+    text-align: center;
+    color: white;
+    background: url(../img/section03-bg.jpg)no-repeat fixed center top/cover;
+}
+
+.section03 h2 {
+    margin: 0 0 30px 0;
+    font-size: 30px;
+    font-weight: 300;
+    line-height: 1.4;
+}
+
+.section03 a {
+    display: inline-block;
+    padding: 8px 20px 10px 20px;
+    border-radius: 20px;
+    background: transparent;
+    font-size: 15px;
+    border: 1px solid white;
+    transition: 0.5s;
+}
+
+.section03 a:hover {
+    background: white;
+    color: rgb(13, 62, 13);
 }
