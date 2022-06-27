@@ -59,7 +59,7 @@
 
 .mainVisual .mainSlider figure {
     position: relative;
-    height: 970px;
+    height: 100vh;
 }
 
 .mainVisual .mainSlider .itm01 {
@@ -96,11 +96,10 @@
     line-height: 1.4;
 }
 
-
 .mainVisual .mainSlider .slick-dots {
     position: absolute;
     inset: auto auto 100px 50%;
-
+    transform: translate(-50%, -50%);
 }
 
 .mainVisual .mainSlider .slick-dots li {
@@ -216,7 +215,7 @@
 
 .section02 .container02 .inner02 h2 {
     font-size: 40px;
-    font-weight: 400;
+    font-weight: 500;
     line-height: 1.4;
     margin: 0 0 30px 0;
 }
@@ -233,6 +232,7 @@
     margin: -250px auto 0 -240px;
     padding: 150px 0;
     transform: translatey(-250px);
+    text-align: center;
 }
 
 .section02 .container02 .slider02 figure {
@@ -240,21 +240,21 @@
     height: 600px;
     overflow: hidden;
     border-radius: 190px;
-    margin: 0 15px 20px 15px;
+    margin: 0 0px 20px 0px;
 }
 
 .section02 .container02 .slider02 h2 {
     font-size: 21px;
     font-weight: 400;
-    text-align: center;
     margin: 0 0 20px 0;
+    width: 380px;
 }
 
 .section02 .container02 .slider02 p {
     font-size: 15px;
     font-weight: 300;
-    text-align: center;
     line-height: 1.4;
+    width: 380px;
 }
 
 .section02 .container02 .arrows02 {}
