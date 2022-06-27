@@ -230,8 +230,8 @@
 }
 
 .section02 .container02 .slider02 {
-    width: 68%;
-    margin: -250px auto 0 -240px;
+    width: 65%;
+    margin: -230px auto 0 -160px;
     padding: 150px 0;
     transform: translatey(-250px);
     text-align: center;
@@ -258,5 +258,3 @@
     line-height: 1.4;
     width: 380px;
 }
-
-.section02 .container02 .arrows02 {}
