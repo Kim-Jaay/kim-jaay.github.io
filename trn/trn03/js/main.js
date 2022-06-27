@@ -16,5 +16,13 @@ $(function () {
         slidesToShow: 3,
     });
 
+    $('.slider05').slick({
+        arrows: false,
+        autoplay: true,
+        pauseOnHover: false,
+        pauseOnFocus: false,
+        slidesToShow: 1,
+    });
+
 
 })

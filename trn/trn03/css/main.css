@@ -389,8 +389,6 @@ html {
     filter: brightness(0.5);
 }
 
-
-
 .section04 .container04 .inner04 p {
     font-size: 21px;
     font-weight: 300;
@@ -412,4 +410,77 @@ html {
 .section04 .container04 .inner04 a:hover {
     background-color: white;
     color: #181818;
+}
+
+.seciton05 {
+    width: 100%;
+}
+
+.seciton05 .slider05 figure {
+    position: relative;
+}
+
+.seciton05 .slider05 figure img {
+    width: 100%;
+}
+
+.seciton05 .slider05 figure .inner {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.seciton05 .slider05 figure.mv01 h2 {
+    position: absolute;
+    inset: 40% auto auto 38%;
+    transform: translate(-50%, -50%);
+    font-size: 90px;
+    font-weight: 700;
+    color: white;
+}
+
+.seciton05 .slider05 .mv01 h3 {
+    position: absolute;
+    inset: 50% auto auto 54%;
+    transform: translate(-50%, -50%);
+    font-size: 90px;
+    font-weight: 700;
+    color: white;
+}
+
+.seciton05 .slider05 figure.mv02 h2 {
+    position: absolute;
+    inset: 40% auto auto 45%;
+    transform: translate(-50%, -50%);
+    font-size: 90px;
+    font-weight: 700;
+    color: white;
+}
+
+.seciton05 .slider05 .mv02 h3 {
+    position: absolute;
+    inset: 50% auto auto 56%;
+    transform: translate(-50%, -50%);
+    font-size: 90px;
+    font-weight: 700;
+    color: white;
+}
+
+.seciton05 .slider05 .inner05 h4 {
+    position: absolute;
+    inset: auto auto 200px 400px;
+    transform: translate(-50%, -50%);
+    font-size: 21px;
+    font-weight: 400;
+    margin: 20px auto;
+    color: white;
+}
+
+.seciton05 .slider05 .inner05 p {
+    position: absolute;
+    inset: auto auto 120px 446px;
+    transform: translate(-50%, -50%);
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 1.4;
+    color: white;
 }
