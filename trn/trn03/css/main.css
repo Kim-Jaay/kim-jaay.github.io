@@ -424,11 +424,6 @@ html {
     width: 100%;
 }
 
-.seciton05 .slider05 figure .inner {
-    width: 1200px;
-    margin: 0 auto;
-}
-
 .seciton05 .slider05 figure.mv01 h2 {
     position: absolute;
     inset: 40% auto auto 38%;
@@ -465,10 +460,14 @@ html {
     color: white;
 }
 
-.seciton05 .slider05 .inner05 h4 {
+.seciton05 .slider05 .inner05 {
     position: absolute;
-    inset: auto auto 200px 400px;
+    inset: 50% auto auto 50%;
     transform: translate(-50%, -50%);
+    width: 1200px;
+}
+
+.seciton05 .slider05 .inner05 h4 {
     font-size: 21px;
     font-weight: 400;
     margin: 20px auto;
@@ -476,9 +475,6 @@ html {
 }
 
 .seciton05 .slider05 .inner05 p {
-    position: absolute;
-    inset: auto auto 120px 446px;
-    transform: translate(-50%, -50%);
     font-size: 15px;
     font-weight: 300;
     line-height: 1.4;
