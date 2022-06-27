@@ -9,7 +9,7 @@ $(function () {
     });
 
     $('.slider02').slick({
-        arrows: false,
+        arrows: true,
         autoplay: true,
         pauseOnHover: false,
         pauseOnFocus: false,
