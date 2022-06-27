@@ -332,3 +332,84 @@ html {
     background: white;
     color: rgb(13, 62, 13);
 }
+
+.section04 {
+    width: 1200px;
+    padding: 100px 0;
+    margin: 0 auto;
+}
+
+.section04 .container04 {
+    display: flex;
+    gap: 30px;
+}
+
+.section04 h2 {
+    font-size: 21px;
+    font-weight: 400px;
+    margin: 0 0 20px 0;
+}
+
+.section04 p {
+    font-size: 15px;
+    font-weight: 300;
+    color: #959595;
+    line-height: 1.4;
+    margin: 0 0 40px 0;
+}
+
+.section04 .container04 figure img {
+    width: 280px;
+    height: 450px;
+    object-fit: cover;
+    transition: 0.5s;
+}
+
+.section04 .container04 figure {
+    position: relative;
+    flex: 1;
+}
+
+.section04 .container04 figure .inner04 {
+    position: absolute;
+    inset: 50% auto auto 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+
+    opacity: 0;
+    transition: 0.5s;
+}
+
+.section04 .container04 figure:hover .inner04 {
+    opacity: 1;
+}
+
+.section04 .container04 figure:hover img {
+    border-radius: 140px;
+    filter: brightness(0.5);
+}
+
+
+
+.section04 .container04 .inner04 p {
+    font-size: 21px;
+    font-weight: 300;
+    color: white;
+    margin: 0 0 20px 0;
+}
+
+.section04 .container04 .inner04 a {
+    display: inline-block;
+    padding: 8px 20px 10px 20px;
+    border-radius: 20px;
+    background: transparent;
+    font-size: 15px;
+    border: 1px solid white;
+    color: white;
+    transition: 0.5s;
+}
+
+.section04 .container04 .inner04 a:hover {
+    background-color: white;
+    color: #181818;
+}
