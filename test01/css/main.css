@@ -1,0 +1,678 @@
+.container {
+    display: flex;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.inner {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+#header {
+    position: absolute;
+    line-height: 100px;
+    z-index: 1;
+    left: 360px;
+    right: 360px;
+    color: white;
+}
+
+#header .container h1 {
+    width: 135px;
+}
+
+#header nav {
+    margin: 0 0 0 auto;
+}
+
+#header nav>ul {
+    display: flex;
+}
+
+#header nav>ul>li>a {
+    padding: 0 20px;
+    font-size: 15px;
+}
+
+#header nav>ul>li~li::before {
+    display: inline-block;
+    content: "";
+    width: 1px;
+    height: 12px;
+    background: white;
+}
+
+#header .btn {
+    margin: 0 0 0 15px;
+}
+
+#header .btn i {
+    font-size: 15px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.mainVisual .mainSlider figure {
+    position: relative;
+    height: 100vh;
+}
+
+.mainVisual .mainSlider .itm01 {
+    background: url(../img/mv01.jpg)no-repeat center center/cover;
+}
+
+.mainVisual .mainSlider .itm02 {
+    background: url(../img/mv02.jpg)no-repeat center center/cover;
+}
+
+.mainVisual .mainSlider .itm03 {
+    background: url(../img/mv03.jpg)no-repeat center center/cover;
+}
+
+.mainVisual .mainSlider .inner {
+    position: absolute;
+    inset: 50% auto auto 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+.mainVisual .mainSlider .inner h2 {
+    font-size: 50px;
+    font-weight: 200;
+    color: white;
+    line-height: 1.4;
+    margin: 0 0 40px 0;
+}
+
+.mainVisual .mainSlider .inner p {
+    font-size: 15px;
+    font-weight: 200;
+    color: white;
+    line-height: 1.4;
+}
+
+.mainVisual .mainSlider .slick-dots {
+    position: absolute;
+    inset: auto auto 100px 50%;
+    transform: translate(-50%, -50%);
+}
+
+.mainVisual .mainSlider .slick-dots li {
+    display: inline-block;
+}
+
+.mainVisual .mainSlider .slick-dots button {
+    border-radius: 50%;
+    outline: none;
+    border: none;
+    width: 10px;
+    height: 10px;
+    font-size: 0;
+    margin: 0 5px;
+    background: white;
+}
+
+.mainVisual .mainSlider .slick-dots li.slick-active button {
+    background: transparent;
+    border: 1px solid white;
+}
+
+.mainVisual .mainSlider .slick-prev {
+    position: absolute;
+    z-index: 1;
+    inset: auto auto 110px 47.5%;
+    transform: translate(-50%, -50%);
+    outline: none;
+    border: none;
+    width: 10px;
+    height: 10px;
+    font-size: 0;
+    background: none;
+    border-top: 1px solid white;
+    border-left: 1px solid white;
+    transform: rotate(-45deg);
+}
+
+.mainVisual .mainSlider .slick-next {
+    position: absolute;
+    z-index: 1;
+    inset: auto auto 110px 52%;
+    transform: translate(-50%, -50%);
+    outline: none;
+    border: none;
+    width: 10px;
+    height: 10px;
+    font-size: 0;
+    background: none;
+    border-top: 1px solid white;
+    border-left: 1px solid white;
+    transform: rotate(135deg);
+}
+
+.section01 .container01 {
+    display: flex;
+    width: 1200px;
+    margin: 0 auto;
+    padding: 100px 0;
+    justify-content: space-between;
+}
+
+.section01 .container01 .inner01 {
+    margin: auto 0;
+}
+
+.section01 .container01 h2 {
+    font-size: 25px;
+    font-weight: 400;
+    margin: 0 0 30px 0;
+    transform: translate(-8px);
+}
+
+.section01 .container01 h2 span {
+    font-size: 50px;
+    font-weight: 500;
+}
+
+.section01 .container01 p {
+    font-size: 15px;
+    font-weight: 200;
+    color: #767676;
+    line-height: 1.4;
+    margin: 0 0 40px 0;
+}
+
+.section01 .container01 a {
+    display: inline-block;
+    padding: 8px 20px 10px 20px;
+    border-radius: 20px;
+    color: #959595;
+    background: transparent;
+    border: 1px solid #959595;
+
+    transition: 0.5s;
+}
+
+.section01 .container01 a:hover {
+    background: #959595;
+    color: white;
+}
+
+.section01 .container01 figure {
+    width: 480px;
+    height: 780px;
+    overflow: hidden;
+    border-radius: 240px 240px 0 0;
+}
+
+.section02 {
+    position: relative;
+    height: 1000px;
+}
+
+.section02 .container02 {
+    width: 100%;
+    height: 400px;
+    background: #f1f1f1;
+}
+
+.section02 .container02 .inner02 {
+    width: 1200px;
+    text-align: right;
+    margin: 0 auto;
+    padding: 150px 0;
+}
+
+.section02 .container02 .inner02 h2 {
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 1.4;
+    margin: 0 0 30px 0;
+}
+
+.section02 .container02 .inner02 p {
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 1.4;
+    color: #767676;
+}
+
+.section02 .container02 .slider02 {
+    position: absolute;
+    width: 1200px;
+    padding: 150px 0;
+    text-align: center;
+    inset: 0 auto 0 -160px;
+}
+
+.section02 .container02 .slider02 figure {
+    padding: 0 15px;
+}
+
+.section02 .container02 .slider02 h2 {
+    font-size: 21px;
+    font-weight: 400;
+    margin: 0 0 20px 0;
+    width: 380px;
+}
+
+.section02 .container02 .slider02 .inner {
+    width: 100%;
+    border-radius: 180px;
+    overflow: hidden;
+    margin: 0 0 30px 0;
+}
+
+.section02 .container02 .slider02 p {
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 1.4;
+    width: 380px;
+    color: #767676;
+}
+
+.section02 .slick-next {
+    position: absolute;
+    background: url(../img/arrow-right.png);
+    right: -510px;
+    bottom: 150px;
+    font-size: 0;
+    width: 40px;
+    height: 40px;
+    border: none;
+    cursor: pointer;
+}
+
+.section02 .slick-prev {
+    position: absolute;
+    background: url(../img/arrow-left.png);
+    right: -460px;
+    bottom: 150px;
+    font-size: 0;
+    width: 40px;
+    height: 40px;
+    border: none;
+    cursor: pointer;
+}
+
+.section03 {
+    width: 100%;
+    height: 400px;
+    padding: 110px 100px;
+    text-align: center;
+    color: white;
+    background: url(../img/section03-bg.jpg)no-repeat fixed center center/cover;
+}
+
+.section03 h2 {
+    margin: 0 0 30px 0;
+    font-size: 30px;
+    font-weight: 300;
+    line-height: 1.4;
+}
+
+.section03 a {
+    display: inline-block;
+    padding: 8px 20px 10px 20px;
+    border-radius: 20px;
+    background: transparent;
+    font-size: 15px;
+    border: 1px solid white;
+    transition: 0.5s;
+}
+
+.section03 a:hover {
+    background: white;
+    color: rgb(13, 62, 13);
+}
+
+.section04 {
+    width: 1200px;
+    padding: 100px 0;
+    margin: 0 auto;
+}
+
+.section04 .container04 {
+    display: flex;
+    gap: 30px;
+}
+
+.section04 h2 {
+    font-size: 21px;
+    font-weight: 400px;
+    margin: 0 0 20px 0;
+}
+
+.section04 p {
+    font-size: 15px;
+    font-weight: 300;
+    color: #767676;
+    line-height: 1.4;
+    margin: 0 0 40px 0;
+}
+
+.section04 .container04 figure img {
+    width: 280px;
+    height: 450px;
+    object-fit: cover;
+    transition: 0.5s;
+}
+
+.section04 .container04 figure {
+    position: relative;
+    flex: 1;
+}
+
+.section04 .container04 figure .inner04 {
+    position: absolute;
+    inset: 50% auto auto 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+
+    opacity: 0;
+    transition: 0.5s;
+}
+
+.section04 .container04 figure:hover .inner04 {
+    opacity: 1;
+}
+
+.section04 .container04 figure:hover img {
+    border-radius: 140px;
+    filter: brightness(0.5);
+}
+
+.section04 .container04 .inner04 p {
+    font-size: 21px;
+    font-weight: 300;
+    color: white;
+    margin: 0 0 20px 0;
+}
+
+.section04 .container04 .inner04 a {
+    display: inline-block;
+    padding: 8px 20px 10px 20px;
+    border-radius: 20px;
+    background: transparent;
+    font-size: 15px;
+    border: 1px solid white;
+    color: white;
+    transition: 0.5s;
+}
+
+.section04 .container04 .inner04 a:hover {
+    background-color: white;
+    color: #181818;
+}
+
+.section05 {
+    width: 100%;
+}
+
+.section05 .container05 {
+    position: relative;
+}
+
+.section05 .slider05 figure {
+    position: relative;
+}
+
+.section05 .slider05 figure img {
+    width: 100%;
+}
+
+.section05 .slider05 .mv01 h2 {
+    position: absolute;
+    inset: 40% auto auto -100%;
+    transform: translate(-50%, -50%);
+    font-size: 90px;
+    font-weight: 700;
+    color: white;
+
+    opacity: 0;
+}
+
+.section05 .slider05 .mv01.on h2 {
+    inset: 40% auto auto 38%;
+    transform: translateY(-50%, -50%);
+    opacity: 1;
+    transition: 0.5s;
+}
+
+.section05 .slider05 .mv01 h3 {
+    position: absolute;
+    inset: 50% auto auto 70%;
+    transform: translate(-50%, -50%);
+    font-size: 90px;
+    font-weight: 700;
+    color: white;
+    opacity: 0;
+
+}
+
+.section05 .slider05 .mv01.on h3 {
+    inset: 50% auto auto 54%;
+    transform: translateY(-50%, -50%);
+    opacity: 1;
+    transition: 0.5s;
+}
+
+.section05 .slider05 .mv02 h2 {
+    position: absolute;
+    inset: 40% auto auto -100%;
+    transform: translate(-50%, -50%);
+    font-size: 90px;
+    font-weight: 700;
+    color: white;
+    opacity: 0;
+}
+
+.section05 .slider05 .mv02.on h2 {
+    inset: 40% auto auto 45%;
+    transform: translate(-50%, -50%);
+    opacity: 1;
+    transition: 0.5s;
+}
+
+.section05 .slider05 .mv02 h3 {
+    position: absolute;
+    inset: 50% auto auto 70%;
+    transform: translate(-50%, -50%);
+    font-size: 90px;
+    font-weight: 700;
+    color: white;
+    opacity: 0;
+}
+
+.section05 .slider05 .mv02.on h3 {
+    inset: 50% auto auto 56%;
+    transform: translate(-50%, -50%);
+    opacity: 1;
+    transition: 0.5s;
+}
+
+.section05 .slider05 .inner05 {
+    position: absolute;
+    inset: auto auto 100px 50%;
+    transform: translate(-50%, -50%);
+    width: 1200px;
+}
+
+.section05 .slider05 .inner05 h4 {
+    font-size: 21px;
+    font-weight: 400;
+    margin: 20px auto;
+    color: white;
+}
+
+.section05 .slider05 .inner05 p {
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 1.4;
+    color: white;
+}
+
+.section05 .arrows05 i {
+    position: absolute;
+    inset: 50% auto auto 50%;
+    font-size: 40px;
+    color: white;
+    cursor: pointer;
+}
+
+.arrows05 i:nth-child(1) {
+    transform: translate(-50%, -50%);
+    margin: 0 0 0 -700px;
+}
+
+.arrows05 i:nth-child(2) {
+    transform: translate(-50%, -50%);
+    margin: 0 0 0 700px;
+}
+
+
+
+
+
+.section06 {
+    padding: 100px 0;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.section06 h2 {
+    font-size: 21px;
+    font-weight: 400;
+    margin: 0 0 20px 0;
+}
+
+.section06 p {
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 1.4;
+    color: #767676;
+
+}
+
+.section06 .container06 {
+    display: flex;
+    vertical-align: middle;
+}
+
+.section06 .container06 .inner {
+    flex: 2;
+    margin: auto 0;
+}
+
+.section06 .container06 iframe {
+    flex: 3;
+    margin: 0 0 30px 0;
+}
+
+.section06 .brands>ul {
+    display: flex;
+    gap: 30px;
+}
+
+.section06 .brands>ul>li {
+    flex: 1;
+
+    border: 1px solid #ececec;
+    border-radius: 40px;
+    transition: 0.5s;
+}
+
+.section06 .brands>ul>li:hover {
+    background: #f1f1f1;
+    border: 1px solid #f1f1f1;
+}
+
+#footer .container_f {
+    background: #555;
+    height: 95px;
+}
+
+#footer .brands>ul {
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    gap: 40px;
+    line-height: 95px;
+}
+
+#footer .container_ff {
+    background: #181818;
+    padding: 40px;
+    border-bottom: 1px solid #767676;
+}
+
+#footer .top {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+#footer .top h2 {
+    width: 170px;
+    margin: 0 0 30px 0;
+}
+
+#footer .top address {
+    color: white;
+    font-size: 12px;
+    font-weight: 100;
+    font-style: normal;
+    margin: 0 0 5px 0;
+}
+
+#footer .top p {
+    color: #ececec;
+    font-size: 12px;
+    font-weight: 100;
+    font-style: normal;
+}
+
+#footer .container_fff {
+    background: #181818;
+    padding: 40px;
+}
+
+#footer .container_fff .bottom {
+    display: flex;
+    width: 1200px;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+#footer .container_fff .bottom {
+    color: #ececec;
+    font-size: 12px;
+    font-weight: 100;
+}
+
+.service dd,
+.service dt {
+    display: inline-block;
+}
+
+.service dd::after {
+    content: "";
+    display: inline-block;
+    margin: 0 15px;
+    width: 1px;
+    height: 13px;
+    background: #ececec;
+}
+
+#footer .bottom select {
+    background: transparent;
+    color: #ececec;
+    padding: 5px 5px;
+    font-size: 12px;
+    border: none;
+    outline: none;
+}
+
+#footer .bottom option {
+    color: white;
+    background: #333;
+}
