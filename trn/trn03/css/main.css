@@ -515,21 +515,76 @@ html {
     color: white;
 }
 
-.section05 .arrows05 {
+.section05 .arrows05 i {
+    position: absolute;
+    inset: 50% auto auto 50%;
     font-size: 40px;
     color: white;
+    cursor: pointer;
 }
 
 .arrows05 i:nth-child(1) {
-    position: absolute;
-    inset: 50% auto auto 50%;
     transform: translate(-50%, -50%);
     margin: 0 0 0 -700px;
 }
 
 .arrows05 i:nth-child(2) {
-    position: absolute;
-    inset: 50% auto auto 50%;
     transform: translate(-50%, -50%);
     margin: 0 0 0 700px;
+}
+
+
+
+
+
+.section06 {
+    padding: 100px 0;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.section06 h2 {
+    font-size: 21px;
+    font-weight: 400;
+    margin: 0 0 20px 0;
+}
+
+.section06 p {
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 1.4;
+
+}
+
+.section06 .container06 {
+    display: flex;
+    vertical-align: middle;
+}
+
+.section06 .container06 .inner {
+    flex: 2;
+    margin: auto 0;
+}
+
+.section06 .container06 iframe {
+    flex: 3;
+    margin: 0 0 30px 0;
+}
+
+.section06 .brands>ul {
+    display: flex;
+    gap: 30px;
+}
+
+.section06 .brands>ul>li {
+    flex: 1;
+
+    border: 1px solid #ececec;
+    border-radius: 40px;
+    transition: 0.5s;
+}
+
+.section06 .brands>ul>li:hover {
+    background: #f1f1f1;
+    border: 1px solid #f1f1f1;
 }

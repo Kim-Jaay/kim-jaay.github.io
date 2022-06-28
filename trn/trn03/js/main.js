@@ -37,4 +37,7 @@ $(function () {
         $('.slider05').slick('slickNext');
     });
 
+
+
+
 });
