@@ -422,39 +422,76 @@ html {
 
 .section05 .slider05 .mv01 h2 {
     position: absolute;
-    inset: 40% auto auto 38%;
+    inset: 40% auto auto -100%;
     transform: translate(-50%, -50%);
     font-size: 90px;
     font-weight: 700;
     color: white;
+
+    opacity: 0;
+}
+
+.section05 .slider05 .mv01.on h2 {
+    inset: 40% auto auto 38%;
+    transform: translateY(-50%, -50%);
+    opacity: 1;
+    transition: 0.5s;
 }
 
 .section05 .slider05 .mv01 h3 {
     position: absolute;
-    inset: 50% auto auto 54%;
+    inset: 50% auto auto 70%;
     transform: translate(-50%, -50%);
     font-size: 90px;
     font-weight: 700;
     color: white;
+    opacity: 0;
+
+}
+
+.section05 .slider05 .mv01.on h3 {
+    inset: 50% auto auto 54%;
+    transform: translateY(-50%, -50%);
+    opacity: 1;
+    transition: 0.5s;
 }
 
 .section05 .slider05 .mv02 h2 {
     position: absolute;
-    inset: 40% auto auto 45%;
+    inset: 40% auto auto -100%;
     transform: translate(-50%, -50%);
     font-size: 90px;
     font-weight: 700;
     color: white;
+
+    opacity: 0;
+}
+
+.section05 .slider05 .mv02.on h2 {
+    inset: 40% auto auto 45%;
+    transform: translate(-50%, -50%);
+    opacity: 1;
+    transition: 0.5s;
 }
 
 .section05 .slider05 .mv02 h3 {
     position: absolute;
-    inset: 50% auto auto 56%;
+    inset: 50% auto auto 70%;
     transform: translate(-50%, -50%);
     font-size: 90px;
     font-weight: 700;
     color: white;
+
+    opacity: 0;
 }
+
+.section05 .slider05 .mv02.on h3 {
+    inset: 50% auto auto 56%;
+    transform: translate(-50%, -50%);
+    opacity: 1;
+    transition: 0.5s;
+}
+
 
 .section05 .slider05 .inner05 {
     position: absolute;
