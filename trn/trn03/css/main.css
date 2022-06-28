@@ -1,7 +1,3 @@
-html {
-    height: 15000px;
-}
-
 .container {
     display: flex;
     width: 1200px;
@@ -272,6 +268,7 @@ html {
     font-weight: 300;
     line-height: 1.4;
     width: 380px;
+    color: #767676;
 }
 
 .section02 .slick-next {
@@ -349,7 +346,7 @@ html {
 .section04 p {
     font-size: 15px;
     font-weight: 300;
-    color: #959595;
+    color: #767676;
     line-height: 1.4;
     margin: 0 0 40px 0;
 }
@@ -553,6 +550,7 @@ html {
     font-size: 15px;
     font-weight: 300;
     line-height: 1.4;
+    color: #767676;
 
 }
 
@@ -587,4 +585,94 @@ html {
 .section06 .brands>ul>li:hover {
     background: #f1f1f1;
     border: 1px solid #f1f1f1;
+}
+
+#footer .container_f {
+    background: #555;
+    height: 95px;
+}
+
+#footer .brands>ul {
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    gap: 40px;
+    line-height: 95px;
+}
+
+#footer .container_ff {
+    background: #181818;
+    padding: 40px;
+    border-bottom: 1px solid #767676;
+}
+
+#footer .top {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+#footer .top h2 {
+    width: 170px;
+    margin: 0 0 30px 0;
+}
+
+#footer .top address {
+    color: white;
+    font-size: 12px;
+    font-weight: 100;
+    font-style: normal;
+    margin: 0 0 5px 0;
+}
+
+#footer .top p {
+    color: #ececec;
+    font-size: 12px;
+    font-weight: 100;
+    font-style: normal;
+}
+
+#footer .container_fff {
+    background: #181818;
+    padding: 40px;
+}
+
+#footer .container_fff .bottom {
+    display: flex;
+    width: 1200px;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+#footer .container_fff .bottom {
+    color: #ececec;
+    font-size: 12px;
+    font-weight: 100;
+}
+
+.service dd,
+.service dt {
+    display: inline-block;
+}
+
+.service dd::after {
+    content: "";
+    display: inline-block;
+    margin: 0 15px;
+    width: 1px;
+    height: 13px;
+    background: #ececec;
+}
+
+#footer .bottom select {
+    background: transparent;
+    color: #ececec;
+    padding: 5px 5px;
+    font-size: 12px;
+    border: none;
+    outline: none;
+}
+
+#footer .bottom option {
+    color: white;
+    background: #333;
 }
