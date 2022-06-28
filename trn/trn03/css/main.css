@@ -277,7 +277,7 @@ html {
 .section02 .slick-next {
     position: absolute;
     background: url(../img/arrow-right.png);
-    right: -470px;
+    right: -510px;
     bottom: 150px;
     font-size: 0;
     width: 40px;
@@ -289,7 +289,7 @@ html {
 .section02 .slick-prev {
     position: absolute;
     background: url(../img/arrow-left.png);
-    right: -420px;
+    right: -460px;
     bottom: 150px;
     font-size: 0;
     width: 40px;
@@ -491,7 +491,6 @@ html {
     opacity: 1;
     transition: 0.5s;
 }
-
 
 .section05 .slider05 .inner05 {
     position: absolute;
