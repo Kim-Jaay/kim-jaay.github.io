@@ -1,3 +1,0 @@
-#Header { position: fixed; left: 0; right: 0; top: 0; padding: 10px 40px; display: flex; justify-content:space-between; min-width: 1900px; background-color: rgba(0, 0, 0 , 0.5); color: white; line-height: 77px; transition: 0.5s; z-index: 1;} 
-
-#Header .Gnb ul{display: flex; gap: 30px;}
