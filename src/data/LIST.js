@@ -1,16 +1,17 @@
 const LIST = [
-    { id: 1, title: 'sealife', link: '/sealife' },
-    { id: 2, title: 'louvre', link: '/louvre' },
-    { id: 3, title: 'h&m', link: '/h&m' },
-    { id: 4, title: 'nasa', link: '/nasa' },
-    { id: 5, title: 'tamburins', link: '/tamburins' },
-    { id: 6, title: 'usm', link: '/usm' },
-    { id: 7, title: 'namkwang', link: '/nam' },
-    { id: 8, title: 'songaree', link: '/song' },
-    { id: 9, title: 'prime', link: '/prime' },
-    { id: 10, title: 'sososai', link: '/soso' },
-    { id: 11, title: 'oncheon', link: '/oncheon' },
-    { id: 12, title: 'modivoa', link: '/modi' },
+    { title: 'modivoa', link: '/modi' },
+    { title: 'oncheon', link: '/oncheon' },
+    { title: 'sososai', link: '/soso' },
+    { title: 'prime', link: '/prime' },
+    { title: 'songaree', link: '/song' },
+    { title: 'namkwang', link: '/nam' },
+    { title: 'usm', link: '/usm' },
+    { title: 'tamburins', link: '/tamburins' },
+    { title: 'nasa', link: '/nasa' },
+    { title: 'h&m', link: '/hm' },
+    { title: 'louvre', link: '/louvre' },
+    { title: 'sealife', link: '/sealife' },
+
 ]
 
 export default LIST

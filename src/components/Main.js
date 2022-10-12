@@ -26,15 +26,17 @@ const Main = () => {
                 <div className="inner">
                     <ul className="list">
                         {
-                            LIST.map((it, idx) => {
-                                return (
-                                    <li data-aos="fade-up" data-aos-delay={100 * idx} data-aos-duration="300"  >
-                                        <Link to={it.link}>
-                                            <img src={process.env.PUBLIC_URL + `/assets/img/main0${it.id}.png`} alt="" />
-                                        </Link>
-                                    </li>
-                                )
-                            })
+                            LIST
+                                .map((it, idx) => {
+                                    return (
+                                        <li data-aos="fade-up" data-aos-delay={100 * idx} data-aos-duration="300"  >
+                                            <Link to={it.link}>
+                                                <img src={process.env.PUBLIC_URL + `/assets/img/main_0${idx + 1}.png`} alt="" />
+                                            </Link>
+                                        </li>
+                                    )
+                                })
+                                .reverse()
                         }
 
                     </ul>
