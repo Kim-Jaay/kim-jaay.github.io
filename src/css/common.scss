@@ -1,0 +1,5 @@
+.wrap {
+    overflow-x: hidden; overflow-y: hidden !important;
+}
+
+.inner { width: calc(100% - 300px); margin: 0 0 0 310px; padding: 10px 40px 100px 0; }

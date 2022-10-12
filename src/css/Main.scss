@@ -1,0 +1,15 @@
+@use'common';
+
+.MainWrap {
+	background: black;
+
+	.Main {
+
+
+		.inner {
+			display: flex ; gap: 10px;
+
+			.list { display: grid; grid-template-columns: 33.333% 33.333% 33.333%; gap: 10px; }
+		}
+	}
+}
