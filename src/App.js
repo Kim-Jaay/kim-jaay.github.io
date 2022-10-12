@@ -7,18 +7,18 @@ import Main from './components/Main'
 
 
 //portfolio link//
-import Modivoa from './ListPages/001_Modivoa'
-import Oncheon from './ListPages/002_Oncheon'
-import Sososai from './ListPages/003_Sososai'
-import Prime from './ListPages/004_Prime'
-import Songaree from './ListPages/005_Songaree'
-import Namkwang from './ListPages/006_Namkwang'
-import Usm from './ListPages/007_Usm'
-import Tamburins from './ListPages/008_Tamburins'
-import Nasa from './ListPages/009_Nasa'
-import HM from './ListPages/010_H&M'
-import Louvre from './ListPages/011_Louvre'
-import Sealife from './ListPages/012_Sealife'
+import Modivoa from './ListPages/Modivoa'
+import Oncheon from './ListPages/Oncheon'
+import Sososai from './ListPages/Sososai'
+import Prime from './ListPages/Prime'
+import Songaree from './ListPages/Songaree'
+import Namkwang from './ListPages/Namkwang'
+import Usm from './ListPages/Usm'
+import Tamburins from './ListPages/Tamburins'
+import Nasa from './ListPages/Nasa'
+import HM from './ListPages/H&M'
+import Louvre from './ListPages/Louvre'
+import Sealife from './ListPages/Sealife'
 
 
 
