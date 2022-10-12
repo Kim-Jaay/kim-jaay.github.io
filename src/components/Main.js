@@ -14,12 +14,12 @@ const Main = () => {
             startEvent: 'DOMContentLoaded', // name of the event dispatched on the document, that AOS should initialize on
             initClassName: 'aos-init', // class applied after initialization
             animatedClassName: 'aos-animate', // class applied on animation
-            useClassNames: false, // if true, will add content of `data-aos` as classes on scroll
+            //useClassNames: false, // if true, will add content of `data-aos` as classes on scroll
             disableMutationObserver: false, // disables automatic mutations' detections (advanced)
             debounceDelay: 50, // the delay on debounce used while resizing window (advanced)
             throttleDelay: 99, // the delay on throttle used while scrolling the page (advanced)
         });
-    })
+    }, [])
     return (
         <div className='MainWrap'>
             <main className='Main'>
@@ -28,7 +28,7 @@ const Main = () => {
                         {
                             LIST.map((it, idx) => {
                                 return (
-                                    <li data-aos="fade-up" data-aos-delay={200 * idx} data-aos-duration="500"  >
+                                    <li data-aos="fade-up" data-aos-delay={100 * idx} data-aos-duration="300"  >
                                         <Link to={it.link}>
                                             <img src={process.env.PUBLIC_URL + `/assets/img/main0${it.id}.png`} alt="" />
                                         </Link>
