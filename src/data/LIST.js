@@ -8,6 +8,7 @@ const LIST = [
         des2: 'Refreshing the brand identity for a leading design agency \nspecializing in design, development, and other disciplines.',
         tools: ['Illustrator /', ' Photoshop'],
         period: '3 Months',
+        field: ['Brand Experience Design'],
     },
     {
         id: 2,
@@ -18,6 +19,8 @@ const LIST = [
         des2: 'Refreshing the brand identity for a leading design agency \nspecializing in design, development, and other disciplines.',
         tools: ['Illustrator', 'Photoshop', 'Hand Drawing'],
         period: '3 Months',
+        field: ['Brand Experience Design /', ' Package Design /', ' Hand Drawing'],
+
     },
     {
         id: 3,
@@ -28,6 +31,7 @@ const LIST = [
         des2: 'Refreshing the brand identity for a leading design agency \nspecializing in design, development, and other disciplines.',
         tools: ['llustrator /', ' Photoshop'],
         period: '3 Months',
+        field: ['Brand Naming /', ' Brand Experience Design'],
     },
     {
         id: 4,
@@ -38,6 +42,7 @@ const LIST = [
         des2: 'Refreshing the brand identity for a leading design agency \nspecializing in design, development, and other disciplines.',
         tools: ['Illustrator /', ' Photoshop /', ' Hand Drawing'],
         period: '3 Months',
+        field: ['Package Design /', ' Hand Drawing'],
     },
     {
         id: 5,
@@ -48,6 +53,7 @@ const LIST = [
         des2: 'Refreshing the brand identity for a leading design agency \nspecializing in design, development, and other disciplines.',
         tools: ['Illustrator', 'Photoshop', 'Service Journey Map'],
         period: '3 Months',
+        field: ['Brand Experience Design'],
     },
     {
         id: 6,
@@ -58,6 +64,7 @@ const LIST = [
         des2: 'Refreshing the brand identity for a leading design agency \nspecializing in design, development, and other disciplines.',
         tools: ['Service Design Framwork', 'Illustrator', 'Photoshop', 'Double Diamond'],
         period: '4 Months',
+        field: ['Service Design /', ' Brand Experience Design'],
     },
     {
         id: 7,
@@ -69,6 +76,7 @@ const LIST = [
         des2: 'Refreshing the brand identity for a leading design agency \nspecializing in design, development, and other disciplines.',
         tools: ['jQuery /', ' Figma /', ' Photoshop'],
         period: '14 Days',
+        field: ['UXUI Design /', ' Web Development'],
     },
     {
         id: 8,
@@ -80,6 +88,7 @@ const LIST = [
         des2: 'Refreshing the brand identity for a leading design agency \nspecializing in design, development, and other disciplines.',
         tools: ['jQuery /', ' Figma /', ' Photoshop'],
         period: '7 Days',
+        field: ['UXUI Design /', ' Web Development'],
     },
     {
         id: 9,
@@ -91,6 +100,7 @@ const LIST = [
         des2: 'Refreshing the brand identity for a leading design agency \nspecializing in design, development, and other disciplines.',
         tools: ['React /', ' Figma /', ' Photoshop'],
         period: '7 Days',
+        field: ['UXUI Design /', ' Web Development'],
     },
     {
         id: 10,
@@ -102,6 +112,7 @@ const LIST = [
         des2: 'Refreshing the brand identity for a leading design agency \nspecializing in design, development, and other disciplines.',
         tools: ['Vanilla JS /', ' Figma /', ' Photoshop'],
         period: '7 Days',
+        field: ['UXUI Design /', ' Web Development'],
     },
     {
         id: 11,
@@ -113,6 +124,7 @@ const LIST = [
         des2: 'Refreshing the brand identity for a leading design agency \nspecializing in design, development, and other disciplines.',
         tools: ['React /', ' Figma /', ' Photoshop'],
         period: '7 Days',
+        field: ['UXUI Design /', ' Web Development'],
     },
     {
         id: 12,
@@ -124,6 +136,7 @@ const LIST = [
         des2: 'Refreshing the brand identity for a leading design agency \nspecializing in design, development, and other disciplines.',
         tools: ['React /', ' Figma /', ' Photoshop'],
         period: '14 Days',
+        field: ['UXUI Design /', ' Web Development'],
     },
 
 ]
