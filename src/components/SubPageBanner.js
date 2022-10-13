@@ -20,23 +20,23 @@ import Sealife from '../ListPages/Sealife'
 
 const SubPageBanner = () => {
     const navigate = useNavigate();
-    const { id } = useParams()
     const backBtn = () => { navigate(-1); }
+    const { id } = useParams()
     const matchId = LIST.find(it => it.id == id);
 
 
 
 
     return (
-        <>
+        <div className='SubBanner'>
             <div className="inner">
                 <div className="inner1200">
-                    <div className='SubBanner'>
+                    <div className='Banner'>
                         <div className="button">
                             {
                                 matchId.outlink
                                     ?
-                                    <a href={matchId.outlink} target='_blank'>View Page</a>
+                                    <a href={matchId.outlink} target='_blank' >View Page</a>
                                     : null
                             }
                             <i className="xi-close" onClick={backBtn}></i>
@@ -49,6 +49,7 @@ const SubPageBanner = () => {
                                 <p>{matchId.des1}</p>
                             </div>
                         </div>
+
                     </div>
                 </div>
             </div>
@@ -63,7 +64,7 @@ const SubPageBanner = () => {
                 })
             } */}
 
-            <div>
+            <div className='SubContent'>
                 {id == 1 && <Modivoa />}
                 {id == 2 && <Oncheon />}
                 {id == 3 && <Sososai />}
@@ -77,7 +78,7 @@ const SubPageBanner = () => {
                 {id == 11 && <Louvre />}
                 {id == 12 && <Sealife />}
             </div>
-        </>
+        </div>
     )
 }
 

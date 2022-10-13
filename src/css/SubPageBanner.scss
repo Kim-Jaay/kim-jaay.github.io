@@ -1,3 +1,23 @@
-.SubBanner{
-    i{cursor: pointer;}
+.SubBanner {
+    i {
+}
+    .inner {
+        .inner1200 {
+            .Banner {
+                .button {
+                    position: fixed; display: flex; gap: 20px; right: calc(((100% - 300px) - 1200px)/2); top: 40px;
+
+                    a { padding: 13px 29px; background: #333; border-radius: 30px; color: white; font-weight: 500; }
+                    i { cursor: pointer; font-size: 20px; padding: 10px; background: #d7d7d7; border-radius: 50%; color: white; }
+                }
+                .con {
+                    display: flex; padding-top: 100px; margin: 0 0 50px 0;
+
+                    h2 { width: 50% ; font-size: 20px ; font-weight: 600; color: black; }
+                    span { display: inline-block; margin: 0 0 20px 0; font-weight: 600;}
+                    p { width: 50%; white-space: pre; }
+                }
+            }
+        }
+    }
 }
