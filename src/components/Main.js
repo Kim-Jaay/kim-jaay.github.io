@@ -23,7 +23,7 @@ const Main = () => {
     return (
         <div className='MainWrap'>
             <main className='Main'>
-                <div className="inner">
+                <div className="MainInner">
                     <ul className="list">
                         {
                             LIST

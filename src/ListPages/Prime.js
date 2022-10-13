@@ -2,7 +2,9 @@ import React from 'react'
 
 const Prime = () => {
     return (
-        <div className='inner'>Prime</div>
+        <div className='inner'>
+
+        </div>
     )
 }
 

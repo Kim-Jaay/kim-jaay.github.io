@@ -2,7 +2,9 @@ import React from 'react'
 
 const Namkwang = () => {
     return (
-        <div className='inner'>Namkwang</div>
+        <div className='inner'>
+
+        </div>
     )
 }
 

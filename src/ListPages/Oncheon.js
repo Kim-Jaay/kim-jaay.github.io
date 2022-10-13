@@ -2,7 +2,9 @@ import React from 'react'
 
 const Oncheon = () => {
     return (
-        <div className='inner'>oncheon</div>
+        <div className='inner'>
+
+        </div>
     )
 }
 

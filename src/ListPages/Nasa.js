@@ -2,7 +2,9 @@ import React from 'react'
 
 const Nasa = () => {
     return (
-        <div className='inner'>009_Nasa</div>
+        <div className='inner'>
+
+        </div>
     )
 }
 

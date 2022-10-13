@@ -2,7 +2,9 @@ import React from 'react'
 
 const Tamburins = () => {
     return (
-        <div className='inner'>008_Tamburins</div>
+        <div className='inner'>
+
+        </div>
     )
 }
 
