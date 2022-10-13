@@ -13,10 +13,12 @@ const App = () => {
   return (
     <div className="wrap">
       <Header />
+
       <Routes>
         <Route path='/' element={<Main />} />
         <Route path='/:id' element={<SubPageBanner />} />
       </Routes>
+
     </div>
   )
 }
