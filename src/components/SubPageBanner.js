@@ -22,9 +22,8 @@ const SubPageBanner = () => {
     const navigate = useNavigate();
     const { id } = useParams()
     const backBtn = () => { navigate(-1); }
-
     const matchId = LIST.find(it => it.id == id);
-    console.log(matchId)
+
 
 
 
@@ -34,7 +33,12 @@ const SubPageBanner = () => {
                 <div className="inner1200">
                     <div className='SubBanner'>
                         <div className="button">
-                            <a href='https://kim-jaay.github.io/practice_react_03/' target='_blank'>View Page</a>
+                            {
+                                matchId.outlink
+                                    ?
+                                    <a href={matchId.outlink} target='_blank'>View Page</a>
+                                    : null
+                            }
                             <i className="xi-close" onClick={backBtn}></i>
                         </div>
 
@@ -48,13 +52,24 @@ const SubPageBanner = () => {
                     </div>
                 </div>
             </div>
+
+            {/* {
+                matchId.map((it, idx) => {
+                    return (
+                        <div>
+                            {id == idx + 1 && < ${it.name} />}
+                        </div>
+                    )
+                })
+            } */}
+
             <div>
                 {id == 1 && <Modivoa />}
                 {id == 2 && <Oncheon />}
                 {id == 3 && <Sososai />}
-                {id == 4 && <Prime />}
+                {id == 4 && <Namkwang />}
                 {id == 5 && <Songaree />}
-                {id == 6 && <Namkwang />}
+                {id == 6 && <Prime />}
                 {id == 7 && <Usm />}
                 {id == 8 && <Tamburins />}
                 {id == 9 && <Nasa />}

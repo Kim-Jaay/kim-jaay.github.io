@@ -1,6 +1,7 @@
 const LIST = [
     {
         id: 1,
+        name: 'Modivoa',
         title: 'Modivoa',
         link: '/1',
         des1: '',
@@ -10,6 +11,7 @@ const LIST = [
     },
     {
         id: 2,
+        name: 'Oncheon',
         title: 'Oncheon Handmade Fishcake',
         link: '/2',
         des1: '',
@@ -19,6 +21,7 @@ const LIST = [
     },
     {
         id: 3,
+        name: 'Sososai',
         title: 'Sososai',
         link: '/3',
         des1: '',
@@ -28,6 +31,7 @@ const LIST = [
     },
     {
         id: 4,
+        name: 'Namkwang',
         title: 'Namkwang Seaweed',
         link: '/4',
         des1: '',
@@ -37,6 +41,7 @@ const LIST = [
     },
     {
         id: 5,
+        name: 'Songaree',
         title: 'Songaree IT',
         link: '/5',
         des1: '',
@@ -46,6 +51,7 @@ const LIST = [
     },
     {
         id: 6,
+        name: 'Prime',
         title: 'Prime Fitness',
         link: '/6',
         des1: '',
@@ -55,6 +61,7 @@ const LIST = [
     },
     {
         id: 7,
+        name: 'Usm',
         title: 'USM',
         link: '/7',
         outlink: 'https://kim-jaay.github.io/practice/04usm/',
@@ -65,6 +72,7 @@ const LIST = [
     },
     {
         id: 8,
+        name: 'Tamburins',
         title: 'Tamburins',
         link: '/8',
         outlink: 'https://kim-jaay.github.io/practice/03tamburins/',
@@ -75,6 +83,7 @@ const LIST = [
     },
     {
         id: 9,
+        name: 'Nasa',
         title: 'NASA',
         link: '/9',
         outlink: 'https://kim-jaay.github.io/practice_react_01/',
@@ -85,6 +94,7 @@ const LIST = [
     },
     {
         id: 10,
+        name: 'HM',
         title: 'H&M',
         link: '/10',
         outlink: 'https://kim-jaay.github.io/practice/07h&m/',
@@ -95,6 +105,7 @@ const LIST = [
     },
     {
         id: 11,
+        name: 'Louvre',
         title: 'Louvre Museum',
         link: '/11',
         outlink: 'https://kim-jaay.github.io/practice_react_02/',
@@ -105,6 +116,7 @@ const LIST = [
     },
     {
         id: 12,
+        name: 'Sealife',
         title: 'Sealife Busan',
         link: '/12',
         outlink: 'https://kim-jaay.github.io/practice_react_03/',

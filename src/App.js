@@ -9,11 +9,7 @@ import SubPageBanner from './components/SubPageBanner'
 
 
 
-
 const App = () => {
-
-
-
   return (
     <div className="wrap">
       <Header />

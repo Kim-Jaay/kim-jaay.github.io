@@ -1,24 +1,14 @@
 import React, { useEffect } from 'react'
-import Footer from './Footer'
-import '../css/Main.scss'
-import LIST from '../data/List.js'
 import { Link } from 'react-router-dom'
-
+import LIST from '../data/List.js'
+import Footer from './Footer.js'
 import AOS from "aos";
 import "aos/dist/aos.css";
+import '../css/Main.scss'
 
 const Main = () => {
     useEffect(() => {
-        AOS.init({
-            disable: false, // accepts following values: 'phone', 'tablet', 'mobile', boolean, expression or function
-            startEvent: 'DOMContentLoaded', // name of the event dispatched on the document, that AOS should initialize on
-            initClassName: 'aos-init', // class applied after initialization
-            animatedClassName: 'aos-animate', // class applied on animation
-            //useClassNames: false, // if true, will add content of `data-aos` as classes on scroll
-            disableMutationObserver: false, // disables automatic mutations' detections (advanced)
-            debounceDelay: 50, // the delay on debounce used while resizing window (advanced)
-            throttleDelay: 99, // the delay on throttle used while scrolling the page (advanced)
-        });
+        AOS.init({});
     }, [])
     return (
         <div className='MainWrap'>
@@ -42,9 +32,7 @@ const Main = () => {
                     </ul>
                 </div>
             </main >
-            <footer className="Footer">
-                <Footer />
-            </footer>
+            <Footer />
         </div >
     )
 }
