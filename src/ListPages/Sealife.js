@@ -10,7 +10,7 @@ const Sealife = () => {
     const { id } = useParams()
     const matchId = LIST.find(it => it.id == id);
     return (
-        <>
+        <div className='Sealife'>
             <div className="inner">
                 <img src={process.env.PUBLIC_URL + '/assets/img/sub12_00.png'} alt="" className='banner' />
 
@@ -33,7 +33,7 @@ const Sealife = () => {
             </div>
 
 
-        </>
+        </div>
     )
 }
 

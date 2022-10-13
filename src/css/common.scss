@@ -1,13 +1,16 @@
 .wrap { overflow-x: hidden; overflow-y: hidden !important; }
 .inner { width: calc(100% - 300px); margin: 0 0 0 300px; padding: 0; }
 .inner1200 { width: 1200px; margin: 0 auto; }
+.banner { margin: 0 0 50px 0; }
 .subcon {
     h2 { font-size: 30px; font-weight: 600; color: black; margin: 0 0 20px 0; }
     p { margin: 0 0 50px 0; white-space: pre; }
-    .bottom {padding: 100px 0;
+    .bottom {
+        padding: 100px 0;
+
         h3 { font-size: 20px; font-weight: 500; color: black; margin: 0 0 5px 0; }
         p { font-size: 15px; margin: 0 0 20px 0; }
         strong { display: inline-block; font-size: 14px; display: inline-block; margin: 0 0 5px 0; }
-        small { font-size: 14px;}
+        small { font-size: 14px; }
     }
 }
