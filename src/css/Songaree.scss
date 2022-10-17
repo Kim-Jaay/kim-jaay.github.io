@@ -1,6 +1,21 @@
 .Songaree {
-	.img01 { margin-right: 0; margin-left: calc((100vw - 1500px)/2); margin-bottom: 0 0 100px 0; }
-	.img02 { margin-left: 0; margin-right: calc((100vw - 1500px)/2); }
-    .iot{background: url(../../public/assets/img/sub05_03.svg); height: 800px;}
+	.img01 { margin-right: 0; margin-left: calc((100vw - 1500px)/2); margin-bottom: 0 0 100px 0; width: calc(1200px + ((100vw - 1500px)/2)); }
+	.img02 { margin-left: 0; margin-right: calc((100vw - 1500px)/2); width: calc(1200px + ((100vw - 1500px)/2)); }
+	.iot {
+		background: #f9f9f9;
 
+		.subcon {
+			p { margin-bottom: -100px; }
+		}
+	}
+	.needs {
+		.subcon {
+			color: white;
+
+			h2 { color: white; }
+		}
+		background: url(../../public/assets/img/sub05_04.png)no-repeat center center/cover; height: 800px;	}
+	.strategy { background: #f1f1f1; }
+	.develop01 { background: url(../../public/assets/img/sub05_07.png)no-repeat center center/cover; height: 850px; }
+	.develop02 { background: url(../../public/assets/img/sub05_08.png)no-repeat center center/cover; height: 800px; }
 }

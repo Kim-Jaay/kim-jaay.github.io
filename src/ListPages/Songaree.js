@@ -21,7 +21,7 @@ const Songaree = () => {
                         <h2>{matchId.title}</h2>
                         <p>{matchId.des2}</p>
                     </div>
-                    <img src={process.env.PUBLIC_URL + '/assets/img/sub05_01.svg'} className='img01' />
+                    <img src={process.env.PUBLIC_URL + '/assets/img/sub05_01.png'} className='img01' />
                 </div>
 
                 <div className="inner_sec">
@@ -29,7 +29,7 @@ const Songaree = () => {
                         <h2>{matchId.title}</h2>
                         <p>{matchId.des2}</p>
                     </div>
-                    <img src={process.env.PUBLIC_URL + '/assets/img/sub05_02.svg'} className='img02' />
+                    <img src={process.env.PUBLIC_URL + '/assets/img/sub05_02.png'} className='img02' />
                 </div>
 
                 <div className="inner_sec iot">
@@ -39,6 +39,7 @@ const Songaree = () => {
                             갓난아기의 산소포화도 정보를
                             무선으로 보호자의 스마트폰<br />
                             어플리케이션으로 전달하는 시스템.</p>
+                        <img src={process.env.PUBLIC_URL + '/assets/img/sub05_03.png'} className='img02' />
                     </div>
                 </div>
 
@@ -51,6 +52,45 @@ const Songaree = () => {
                             어플리케이션으로 전달하는 시스템.</p>
                     </div>
                 </div>
+
+                <div className="inner_sec">
+                    <div className="inner1200 subcon">
+                        <h2>Persona & Journey Map</h2>
+                        <p>영아 돌연사 예방을 위해 송아리베이비 IoT 제품을 사용하는 신생아-유아 까지의 자녀를 둔<br />
+                            부모를 가상의 페르소나로 설정하여 현재 패키지 사용과정을 블루프린트 및 고객여정지도로 작성</p>
+                        <img src={process.env.PUBLIC_URL + '/assets/img/sub05_05.png'} />
+                    </div>
+                </div>
+                <div className="inner_sec strategy">
+                    <div className="inner1200 subcon">
+                        <h2>Persona & Journey Map</h2>
+                        <p>영아 돌연사 예방을 위해 송아리베이비 IoT 제품을 사용하는 신생아-유아 까지의 자녀를 둔<br />
+                            부모를 가상의 페르소나로 설정하여 현재 패키지 사용과정을 블루프린트 및 고객여정지도로 작성</p>
+                        <img src={process.env.PUBLIC_URL + '/assets/img/sub05_06.png'} />
+                    </div>
+                </div>
+                <div className="inner_sec develop01">
+                    <div className="inner1200 subcon">
+                        <h2>Persona & Journey Map</h2>
+                        <p>영아 돌연사 예방을 위해 송아리베이비 IoT 제품을 사용하는 신생아-유아 까지의 자녀를 둔<br />
+                            부모를 가상의 페르소나로 설정하여 현재 패키지 사용과정을 블루프린트 및 고객여정지도로 작성</p>
+                    </div>
+                </div>
+                <div className="inner_sec develop02">
+                    <div className="inner1200 subcon">
+                        <h2>Persona & Journey Map</h2>
+                        <p>영아 돌연사 예방을 위해 송아리베이비 IoT 제품을 사용하는 신생아-유아 까지의 자녀를 둔<br />
+                            부모를 가상의 페르소나로 설정하여 현재 패키지 사용과정을 블루프린트 및 고객여정지도로 작성</p>
+                    </div>
+                </div>
+                <img src={process.env.PUBLIC_URL + '/assets/img/sub05_09.png'} />
+
+
+
+
+
+
+
 
 
 
