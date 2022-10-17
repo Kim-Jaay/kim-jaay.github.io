@@ -36,7 +36,7 @@ const SubPageBanner = () => {
                             {
                                 matchId.outlink
                                     ?
-                                    <a href={matchId.outlink} target='_blank' >View Page</a>
+                                    <a href={matchId.outlink} target='_blank' className={`btn${matchId.id}`}  >View Page</a>
                                     : null
                             }
                             <i className="xi-close" onClick={backBtn}></i>
@@ -80,7 +80,7 @@ const SubPageBanner = () => {
             </div>
 
 
-        </div>
+        </div >
     )
 }
 
