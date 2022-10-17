@@ -36,7 +36,7 @@ const Songaree = () => {
                     <div className="inner1200 subcon">
                         <h2>Songaree Baby IoT</h2>
                         <p>의료진과 긴밀한 초연결이 필요한 호흡기 질환 환자나<br />
-                            갓난아기의 산소포화도 정보를
+                            갓난 아기의 산소포화도 정보를
                             무선으로 보호자의 스마트폰<br />
                             어플리케이션으로 전달하는 시스템.</p>
                         <img src={process.env.PUBLIC_URL + '/assets/img/sub05_03.png'} className='img02' />
