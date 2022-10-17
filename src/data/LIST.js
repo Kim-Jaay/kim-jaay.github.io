@@ -8,7 +8,7 @@ const LIST = [
         des2: 'Refreshing the brand identity for a leading design agency \nspecializing in design, development, and other disciplines.',
         tools: ['Illustrator /', ' Photoshop'],
         period: '3 Months',
-        field: ['Brand Experience Design'],
+        field: ['Brand Experience Design Consulting'],
     },
     {
         id: 2,
@@ -50,10 +50,10 @@ const LIST = [
         title: 'Songaree IT',
         link: '/5',
         des1: 'Refreshing the brand identity for a leading design agency \nspecializing in design, development, and other disciplines.',
-        des2: 'Refreshing the brand identity for a leading design agency \nspecializing in design, development, and other disciplines.',
+        des2: '사용자와 의료인의 커뮤니케이션을 제공하는  ‘송아리베이비 IoT’ 사용성 개선을 위해 \n사용자 경험 기반의 문제 해결을 바탕으로 이에 맞는 패키지 구조 및 비주얼 전략개발.',
         tools: ['Illustrator /', ' Photoshop /', 'Service Journey Map'],
         period: '3 Months',
-        field: ['Brand Experience Design'],
+        field: ['Package Design Consulting'],
     },
     {
         id: 6,
@@ -99,7 +99,7 @@ const LIST = [
         des1: 'Refreshing the brand identity for a leading design agency \nspecializing in design, development, and other disciplines.',
         des2: 'Refreshing the brand identity for a leading design agency \nspecializing in design, development, and other disciplines.',
         tools: ['React /', ' Figma /', ' Photoshop'],
-        period: '7 Days',
+        period: '14 Days',
         field: ['UXUI Design /', ' Web Development'],
     },
     {

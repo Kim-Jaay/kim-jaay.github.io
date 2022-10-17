@@ -20,12 +20,13 @@
                     .btn10 { background: #e30a1e; }
                     .btn11 { background: #8e6b4a; }
                     .btn12 { background: #0031fc; }
-                    i { cursor: pointer; font-size: 20px; padding: 10px; background: #d7d7d7; border-radius: 50%; color: white; }
+                    i { cursor: pointer; font-size: 20px; padding: 10px; background: rgba($color: black, $alpha: 0.2); border-radius: 50%; color: white; }
                 }
                 .con {
                     display: flex; padding-top: 100px; margin: 0 0 50px 0;
 
-                    h2 { width: 50% ; font-size: 20px ; font-weight: 600; color: black; }
+                    div { width: 50%;  }
+                    h2 { width: 50% ; font-size: 20px ; font-weight: 600; color: black; margin: 0 0 10px 0;}
                     span { display: inline-block; margin: 0 0 20px 0; font-weight: 600; }
                     p { width: 50%; white-space: pre; }
                 }

@@ -43,7 +43,11 @@ const SubPageBanner = () => {
                         </div>
 
                         <div className="con">
-                            <h2>{matchId.title}</h2>
+                            <div>
+                                <h2>{matchId.title}</h2>
+                                <p>{matchId.field}</p>
+                            </div>
+
                             <div>
                                 <span>{matchId.tools}</span>
                                 <p>{matchId.des1}</p>

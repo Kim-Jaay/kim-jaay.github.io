@@ -4,6 +4,7 @@ import LIST from '../data/List';
 import '../css/HM.scss'
 
 const HM = () => {
+
     const { id } = useParams()
     const matchId = LIST.find(it => it.id == id);
     return (
