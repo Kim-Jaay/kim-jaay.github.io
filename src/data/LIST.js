@@ -49,7 +49,7 @@ const LIST = [
         name: 'Songaree',
         title: 'Songaree IT',
         link: '/5',
-        des1: 'Refreshing the brand identity for a leading design agency \nspecializing in design, development, and other disciplines.',
+        des1: '송아리 아이티는 사용자와 의료인의 원활한 커뮤니케이션을 위한 플랫폼을 만들고, \n메디컬 솔루션을 제공하는 기업입니다. 제품의 사용성 개선을 위해 사용자 경험 기반의 \n문제해결을 바탕으로 이에 적합한 패키지 비주얼 전략을 마련하였습니다.',
         des2: '사용자와 의료인의 커뮤니케이션을 제공하는  ‘송아리베이비 IoT’ 사용성 개선을 위해 \n사용자 경험 기반의 문제 해결을 바탕으로 이에 맞는 패키지 구조 및 비주얼 전략개발.',
         tools: ['Illustrator /', ' Photoshop /', 'Service Journey Map'],
         period: '3 Months',

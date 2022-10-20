@@ -20,7 +20,7 @@ const Sososai = () => {
                     <div className="inner1200 subcon">
                         <h2>Project Goal</h2>
                         <p>기업 및 제품의 이미지 전달과 추구하는 이념, 전문성을<br />
-                            소비자에게 인식시키기 위한 신규 브랜드 아이덴티티 개발ㄴ</p>
+                            소비자에게 인식시키기 위한 신규 브랜드 아이덴티티 개발.</p>
                     </div>
                     <img src={process.env.PUBLIC_URL + '/assets/img/sub03_01.png'} className='img01' />
                 </div>
