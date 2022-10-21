@@ -4,6 +4,7 @@ import './css/common.scss'
 import Header from './components/Header'
 import Main from './components/Main'
 import SubPageBanner from './components/SubPageBanner'
+import About from './components/About'
 
 
 
@@ -23,6 +24,7 @@ const App = () => {
       <Routes>
         <Route path='/' element={<Main />} />
         <Route path='/:id' element={<SubPageBanner />} />
+        <Route path='/about' element={<About />} />
       </Routes>
 
     </div>
