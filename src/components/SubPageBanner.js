@@ -51,7 +51,7 @@ const SubPageBanner = () => {
                             <div>
                                 <span>{matchId.tools}</span>
                                 <p>{matchId.des1}</p>
-                                <p>{matchId.des1}</p>
+
                             </div>
                         </div>
 
