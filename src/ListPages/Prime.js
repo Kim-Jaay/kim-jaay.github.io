@@ -12,13 +12,13 @@ const Prime = () => {
                 <img src={process.env.PUBLIC_URL + '/assets/img/sub06_00.png'} alt="" className='banner' />
 
                 <div className="inner1200 subcon">
-                    <h2>{matchId.title}</h2>
+                    <h2>더 건강한 장년층을 위해</h2>
                     <p>{matchId.des2}</p>
                 </div>
 
                 <div className="inner_sec">
                     <div className="inner1200 subcon">
-                        <h2>Design Development Process</h2>
+                        <h2>Service Design Development Process</h2>
                         <p>기업이 직면한 문제를 진단하고 이를 디자인을 통해<br />
                             체계적으로 해결하는 디자인 컨설팅 서비스 진행</p>
                     </div>
@@ -28,51 +28,63 @@ const Prime = () => {
 
                 <div className="inner_sec charts">
                     <div className="inner1200 subcon">
-                        <h2>Brand Concept</h2>
-                        <p>다양한 측면을 검토하여 브랜드의 정체성이 될 핵심가치를 도출하고<br />
-                            동종기업의 이미지와 컬러, 트렌드를 반영하여 차별화된 컨셉 수립</p>
+                        <h2>Target Selection : New Silver Generation</h2>
+                        <p>평균 수명이 늘어남에 따라 65세 이상의 고령인구도 해마다 늘어남.<br />
+                            현재 고령인구 중에서도 실버세대와 뉴 실버세대로 나뉨.</p>
                         <img src={process.env.PUBLIC_URL + '/assets/img/sub06_02.png'} />
                     </div>
                 </div>
 
                 <div className="inner_sec">
                     <div className="inner1200 subcon">
-                        <h2>Brand Concept</h2>
-                        <p>다양한 측면을 검토하여 브랜드의 정체성이 될 핵심가치를 도출하고<br />
-                            동종기업의 이미지와 컬러, 트렌드를 반영하여 차별화된 컨셉 수립</p>
+                        <h2>Satisfaction Survey</h2>
+                        <p>사용자의 현재 서비스에 대한 만족도와 요구사항에 대해 사전에 조사하여<br />
+                            신규 서비스의 기획과 사용자에게 효과적인 서비스 개발을 촉진</p>
                         <img src={process.env.PUBLIC_URL + '/assets/img/sub06_03.png'} />
                     </div>
                 </div>
 
                 <div className="inner_sec blueprints">
                     <div className="inner1200 subcon">
-                        <h2>Brand Concept</h2>
-                        <p>다양한 측면을 검토하여 브랜드의 정체성이 될 핵심가치를 도출하고<br />
-                            동종기업의 이미지와 컬러, 트렌드를 반영하여 차별화된 컨셉 수립</p>
+                        <h2>Service BluePrints & User Journey Map</h2>
+                        <p>프라임 휘트니스 이용고객 동행관찰 및 휘트니스 센터 <br />이용 동행관찰법 조사내용 기반 블루프린트, 여정지도 작성</p>
                         <img src={process.env.PUBLIC_URL + '/assets/img/sub06_04.png'} />
                     </div>
                 </div>
 
                 <div className="inner_sec">
                     <div className="inner1200 subcon">
-                        <h2>Brand Concept</h2>
-                        <p>다양한 측면을 검토하여 브랜드의 정체성이 될 핵심가치를 도출하고<br />
-                            동종기업의 이미지와 컬러, 트렌드를 반영하여 차별화된 컨셉 수립</p>
+                        <h2>Issue Keywords</h2>
+                        <p>고객 만족도 설문과 이해관계자 인터뷰를 통한 <br />핵심키워드 도출 및 분석을 통해 해결방안 제시</p>
                         <img src={process.env.PUBLIC_URL + '/assets/img/sub06_05.png'} />
                     </div>
                 </div>
 
                 <div className="inner_sec keyidea">
                     <div className="inner1200 subcon">
-                        <h2>Brand Concept</h2>
-                        <p>다양한 측면을 검토하여 브랜드의 정체성이 될 핵심가치를 도출하고<br />
-                            동종기업의 이미지와 컬러, 트렌드를 반영하여 차별화된 컨셉 수립</p>
+                        <h2>Design Suggestion</h2>
+                        <p>해결방안 키워드와 관련된 서비스 디자인 제안</p>
                         <img src={process.env.PUBLIC_URL + '/assets/img/sub06_06.png'} />
+                    </div>
+                </div>
+
+                <div className="inner_sec">
+                    <div className="inner1200 subcon">
+                        <h2>Service Design Scenario</h2>
+                        <p>해결방안 키워드와 관련된 서비스 디자인 제안</p>
                     </div>
                 </div>
 
 
 
+                <div className="inner1200 subcon">
+                    <div className="bottom">
+                        <h3>{matchId.title}</h3>
+                        <p>{matchId.field}</p>
+                        <strong>Tools. {matchId.tools}</strong><br />
+                        <small>Period. {matchId.period}</small>
+                    </div>
+                </div>
 
 
 
