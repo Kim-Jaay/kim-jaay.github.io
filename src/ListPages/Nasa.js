@@ -11,7 +11,7 @@ const Nasa = () => {
     return (
         <div className='Nasa'>
             <div className="inner">
-                <img src={process.env.PUBLIC_URL + `/assets/img/sub09_00.png`} alt="" className='banner' />
+                <img src={process.env.PUBLIC_URL + `/assets/img/sub09_00.jpg`} alt="" className='banner' />
 
                 <div className="inner1200 subcon">
                     <h2>{matchId.title}</h2>

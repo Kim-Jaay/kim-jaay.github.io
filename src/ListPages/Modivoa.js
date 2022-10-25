@@ -9,7 +9,7 @@ const Modivoa = () => {
     return (
         <div className='Modivoa'>
             <div className="inner">
-                <img src={process.env.PUBLIC_URL + '/assets/img/sub01_00.png'} alt="" className='banner' />
+                <img src={process.env.PUBLIC_URL + '/assets/img/sub01_00.jpg'} alt="" className='banner' />
 
                 <div className="inner1200 subcon">
                     <h2>{matchId.title}</h2>

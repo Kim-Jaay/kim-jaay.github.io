@@ -9,7 +9,7 @@ const Oncheon = () => {
     return (
         <div className='Oncheon'>
             <div className="inner">
-                <img src={process.env.PUBLIC_URL + '/assets/img/sub02_00.png'} alt="" className='banner' />
+                <img src={process.env.PUBLIC_URL + '/assets/img/sub02_00.jpg'} alt="" className='banner' />
 
                 <div className="inner1200 subcon">
                     <h2>{matchId.title}</h2>

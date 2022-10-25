@@ -9,7 +9,7 @@ const Prime = () => {
 
         <div className='Prime'>
             <div className="inner">
-                <img src={process.env.PUBLIC_URL + '/assets/img/sub06_00.png'} alt="" className='banner' />
+                <img src={process.env.PUBLIC_URL + '/assets/img/sub06_00.jpg'} alt="" className='banner' />
 
                 <div className="inner1200 subcon">
                     <h2>더 건강한 장년층을 위해</h2>
