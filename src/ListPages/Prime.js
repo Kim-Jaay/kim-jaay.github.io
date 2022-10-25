@@ -70,8 +70,11 @@ const Prime = () => {
 
                 <div className="inner_sec">
                     <div className="inner1200 subcon">
-                        <h2>Service Design Scenario</h2>
-                        <p>해결방안 키워드와 관련된 서비스 디자인 제안</p>
+                        <h2>Pop Up Class : 오늘은 내가 전문가</h2>
+                        <p>프라임 휘트니스 고객들을 대상으로 진행하는 팝업클래스 프로그램<br />
+                            휘트니스 센터에서 혼자 운동하는 사람들을 겨냥해 팝업 클래스 개최,<br />
+                            운동을 도와주면서 고객 간 커뮤니티를 형성하고 활발한 분위기 조성</p>
+                        <img src={process.env.PUBLIC_URL + '/assets/img/sub06_07.png'} alt="" />
                     </div>
                 </div>
 
