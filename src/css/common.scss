@@ -5,6 +5,9 @@
 .subcon {
     h2 { font-size: 30px; font-weight: 600; color: black; margin: 0 0 20px 0; }
     p { margin: 0 0 50px 0; white-space: pre; }
+    h3 { font-size: 20px; font-weight: 600; color: black; margin: 0 0 20px 0; }
+    strong { margin: 0 0 10px 0; white-space: pre; display: inline-block; line-height: 1.45; }
+    .code { margin: 0 0 70px 0; }
     .bottom {
         padding: 100px 0;
 
@@ -14,4 +17,4 @@
         small { font-size: 14px; }
     }
 }
-.inner_sec{padding: 100px 0;}
+.inner_sec { padding: 100px 0; }

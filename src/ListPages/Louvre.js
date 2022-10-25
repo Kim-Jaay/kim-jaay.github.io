@@ -7,21 +7,112 @@ import Highlight, { defaultProps } from "prism-react-renderer";
 
 
 const Louvre = () => {
-    const exampleCode = `
+    const AppCode =
+        `
+
+        const App = () => {
+            return (
+              <Wrapper>
+                <Header />
+                <Routes>
+                  <Route path='/' element={<Main />} />
+                  <Route path='/Explore' element={<Explore />} />
+                  <Route path='/What' element={<What />} />
+                  <Route path='/Place' element={<Place />} />
+                </Routes>
+                <Footer />
+                <Top />
+              </Wrapper>
+            )
+          }
+          
+          export default App;
+
+        `;
+
+    const MainVisual =
+        `
+
+        const MainVisual = () => {
+            return (
+                <section className="MainVisual">
+                    <Swiper className='MainSlider'
+                        loop={true}
+                        autoplay={{
+                            delay: 2500,
+                            disableOnInteraction: false,
+                        }}
+                        effect={"fade"}
+                        modules={[Autoplay, EffectFade]}>
+                        {
+                            MainIMG.map((m_i, idx) => {
+                                return (
+                                    <SwiperSlide key={idx}>
+                                        <figure>
+                                            <img src={process.env.PUBLIC_URL + slide_0{idx + 1}.png} alt="" />
+                                        </figure>
+                                    </SwiperSlide>
+                                )
+                            })
+                        }
+                    </Swiper>
+                    <Link to="/explore" >BUY YOUR TICKET</Link>
+                    <div className="slogan">
+                        <h2>
+                            STEP<br />
+                            <span>into</span> THE<br />
+                            MUSÉE DE<br />
+                            LOUVRE
+                        </h2>
+                        <img src={process.env.PUBLIC_URL + '/assets/images/Ellipse.png'} alt="" />
+        
+                    </div>
+        
+        
+                </section>
+            )
+        }
+        
+        export default MainVisual
+
+        `;
 
 
-    코드 보여주세요
-    (function someDemo() {
-      var test = "Hello World!";
-      console.log(test);
-    })();
-    
-    return () => <App />;
-    코드 보여주기 
+
+    const MainNavCode =
+        `
+        
+        const NAVLINK = [
+            { content: 'EXPLORE', link: '/Explore' },
+            { content: 'WHAT’S ON', link: '/What' },
+            { content: 'THE PLACE', link: '/Place' },
+        ]
+        
+        const NavMenu = () => {
+            return (
+                <>
+        
+                    <ul>{
+                        NAVLINK.map((it, idx) => {
+                            return (
+                                <li>
+                                    <NavLink to={it.link}>{it.content}</NavLink>
+                                </li>
+                            )
+                        })
+                    }</ul>
+        
+        
+                </>
+            )
+        }
+        
+        export default NavMenu
+        
+        `;
 
 
 
-    `;
     const { id } = useParams()
     const matchId = LIST.find(it => it.id == id);
     return (
@@ -32,26 +123,74 @@ const Louvre = () => {
                     <h2>{matchId.title}</h2>
                     <p>{matchId.des2}</p>
                     <img src={process.env.PUBLIC_URL + '/assets/img/sub11_01.png'} alt="" className='img01' />
-                    <img src={process.env.PUBLIC_URL + '/assets/img/sub11_02.png'} alt="" />
+                    <img src={process.env.PUBLIC_URL + '/assets/img/sub11_02.png'} alt="" className='img02' />
 
-                    <div className="inner_sec">
-                        <h2>Check the Code : React</h2>
-                        <p>React Library 활용하여 전체 페이지 구축 <br />
-                            Router Dom 사용하여 서브페이지 구성</p>
-                        <Highlight {...defaultProps} code={exampleCode} language="jsx">
-                            {({ className, style, tokens, getLineProps, getTokenProps }) => (
-                                <pre className={className} style={style}>
-                                    {tokens.map((line, i) => (
-                                        <div {...getLineProps({ line, key: i })}>
-                                            {line.map((token, key) => (
-                                                <span {...getTokenProps({ token, key })} />
-                                            ))}
-                                        </div>
-                                    ))}
-                                </pre>
-                            )}
-                        </Highlight>
+
+                    <h2>Check the Code : React</h2>
+                    <p>React Library 활용하여 전체 페이지 구축 <br />
+                        Router Dom 사용하여 서브페이지 구성</p>
+
+                    <h3>App.js</h3>
+                    <strong>메인페이지와 서브페이지를 Router Dom 으로 연결하여 구성함.</strong>
+                    <div className="code">
+                        <div className='code_highlight'>
+                            <Highlight {...defaultProps} code={AppCode} language="jsx" >
+                                {({ className, style, tokens, getLineProps, getTokenProps }) => (
+                                    <pre className={className} style={style}>
+                                        {tokens.map((line, i) => (
+                                            <div {...getLineProps({ line, key: i })}>
+                                                {line.map((token, key) => (
+                                                    <span {...getTokenProps({ token, key })} />
+                                                ))}
+                                            </div>
+                                        ))}
+                                    </pre>
+                                )}
+                            </Highlight>
+                        </div>
                     </div>
+
+                    <h3>MainVisual.js</h3>
+                    <strong>메인페이지 메인비주얼 슬라이드를 Swiper를 사용하여 구현함.<br />
+                        메인 슬라이드 이미지 나열은 React Map 함수를 사용함.</strong>
+                    <div className="code">
+                        <div className='code_highlight'>
+                            <Highlight {...defaultProps} code={MainVisual} language="jsx" >
+                                {({ className, style, tokens, getLineProps, getTokenProps }) => (
+                                    <pre className={className} style={style}>
+                                        {tokens.map((line, i) => (
+                                            <div {...getLineProps({ line, key: i })}>
+                                                {line.map((token, key) => (
+                                                    <span {...getTokenProps({ token, key })} />
+                                                ))}
+                                            </div>
+                                        ))}
+                                    </pre>
+                                )}
+                            </Highlight>
+                        </div>
+                    </div>
+
+                    <h3>MainNav.js</h3>
+                    <strong>상단 메인 Gnb Nav 데이터를 만들어 React Map함수로 구현함.</strong>
+                    <div className="code">
+                        <div className='code_highlight'>
+                            <Highlight {...defaultProps} code={MainNavCode} language="jsx" >
+                                {({ className, style, tokens, getLineProps, getTokenProps }) => (
+                                    <pre className={className} style={style}>
+                                        {tokens.map((line, i) => (
+                                            <div {...getLineProps({ line, key: i })}>
+                                                {line.map((token, key) => (
+                                                    <span {...getTokenProps({ token, key })} />
+                                                ))}
+                                            </div>
+                                        ))}
+                                    </pre>
+                                )}
+                            </Highlight>
+                        </div>
+                    </div>
+
 
                     <div className="bottom">
                         <h3>{matchId.title}</h3>
@@ -63,7 +202,7 @@ const Louvre = () => {
             </div>
 
 
-        </div>
+        </div >
     )
 }
 

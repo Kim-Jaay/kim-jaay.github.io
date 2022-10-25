@@ -10,8 +10,9 @@ import Highlight, { defaultProps } from "prism-react-renderer";
 
 const Sealife = () => {
 
-    const exampleCode = `
-    //App.js
+    const AppCode =
+        `
+
     const App = () => {
         return (
           <>
@@ -34,10 +35,57 @@ const Sealife = () => {
       
       export default App
 
+    `;
 
+    const MainNavCode =
+        `
 
-      //Main.js
+    const MainNav = () => {
+        return (
+            <ul className="main_nav">{
+                NAV.map((it, idx) => {
+                    return (
+                        <li><Link to={it.link}>{it.menu}</Link></li>
+                    )
+                })
+            }
+            </ul>
+        )
+      }
+      
+      export default MainNav  
 
+    `;
+
+    const SubPageCode =
+        `
+
+    const Sealife = () => {
+        return (
+            <div className='Sealife'>
+                <div className="banner">
+                    <img src={process.env.PUBLIC_URL + '/assets/banner03.png'} alt="" />
+                    <h2>SEA LIFE BUSAN</h2>
+                </div>
+    
+                <div className="tab sc">
+                    <div className="inner">
+                        <SealifeTab />
+                        <Routes>
+                            <Route path='/' element={<Location />} />
+                            <Route path='location' element={<Location />} />
+                            <Route path='time' element={<Time />} />
+                            <Route path='facility' element={<Facility />} />
+                        </Routes>
+                    </div>
+                </div>
+    
+    
+            </div>
+        )
+      }
+    
+      export default Sealife
 
     `;
 
@@ -60,24 +108,71 @@ const Sealife = () => {
                     </div>
 
 
-                    <div className="inner_sec">
-                        <h2>Check the Code : React</h2>
-                        <p>React Library 활용하여 전체 페이지 구축 <br />
-                            Router Dom 사용하여 서브페이지 구성</p>
-                        <Highlight {...defaultProps} code={exampleCode} language="jsx">
-                            {({ className, style, tokens, getLineProps, getTokenProps }) => (
-                                <pre className={className} style={style}>
-                                    {tokens.map((line, i) => (
-                                        <div {...getLineProps({ line, key: i })}>
-                                            {line.map((token, key) => (
-                                                <span {...getTokenProps({ token, key })} />
-                                            ))}
-                                        </div>
-                                    ))}
-                                </pre>
-                            )}
-                        </Highlight>
+                    <h2>Check the Code : React</h2>
+                    <p>React Library 활용하여 전체 페이지 구축 <br />
+                        Router Dom 사용하여 서브페이지 구성</p>
+
+                    <h3>App.js</h3>
+                    <strong>메인페이지와 서브페이지를 Router Dom 으로 연결하여 구성함.</strong>
+                    <div className="code">
+                        <div className='code_highlight'>
+                            <Highlight {...defaultProps} code={AppCode} language="jsx" >
+                                {({ className, style, tokens, getLineProps, getTokenProps }) => (
+                                    <pre className={className} style={style}>
+                                        {tokens.map((line, i) => (
+                                            <div {...getLineProps({ line, key: i })}>
+                                                {line.map((token, key) => (
+                                                    <span {...getTokenProps({ token, key })} />
+                                                ))}
+                                            </div>
+                                        ))}
+                                    </pre>
+                                )}
+                            </Highlight>
+                        </div>
                     </div>
+
+                    <h3>MainNav.js</h3>
+                    <strong>상단 메인 Gnb Nav 데이터를 만들어 React Map함수로 구현함.</strong>
+                    <div className="code">
+                        <div className='code_highlight'>
+                            <Highlight {...defaultProps} code={MainNavCode} language="jsx" >
+                                {({ className, style, tokens, getLineProps, getTokenProps }) => (
+                                    <pre className={className} style={style}>
+                                        {tokens.map((line, i) => (
+                                            <div {...getLineProps({ line, key: i })}>
+                                                {line.map((token, key) => (
+                                                    <span {...getTokenProps({ token, key })} />
+                                                ))}
+                                            </div>
+                                        ))}
+                                    </pre>
+                                )}
+                            </Highlight>
+                        </div>
+                    </div>
+
+                    <h3>SubPage.js</h3>
+                    <strong>Router Dom 으로 구성한 SubPage 내부에 <br />Router를 추가로 연결해 Tab Menu를 구현함.</strong>
+                    <div className="code">
+                        <div className='code_highlight'>
+                            <Highlight {...defaultProps} code={SubPageCode} language="jsx" >
+                                {({ className, style, tokens, getLineProps, getTokenProps }) => (
+                                    <pre className={className} style={style}>
+                                        {tokens.map((line, i) => (
+                                            <div {...getLineProps({ line, key: i })}>
+                                                {line.map((token, key) => (
+                                                    <span {...getTokenProps({ token, key })} />
+                                                ))}
+                                            </div>
+                                        ))}
+                                    </pre>
+                                )}
+                            </Highlight>
+                        </div>
+                    </div>
+
+
 
 
                     <div className="bottom">
@@ -90,7 +185,7 @@ const Sealife = () => {
             </div>
 
 
-        </div>
+        </div >
     )
 }
 

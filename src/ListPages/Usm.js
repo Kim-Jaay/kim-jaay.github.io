@@ -6,21 +6,7 @@ import '../css/Usm.scss'
 import Highlight, { defaultProps } from "prism-react-renderer";
 
 const Usm = () => {
-    const exampleCode = `
 
-
-    코드 보여주세요
-    (function someDemo() {
-      var test = "Hello World!";
-      console.log(test);
-    })();
-    
-    return () => <App />;
-    코드 보여주기 
-
-
-
-    `;
     const { id } = useParams()
     const matchId = LIST.find(it => it.id == id);
     return (
@@ -37,24 +23,7 @@ const Usm = () => {
                         <img src={process.env.PUBLIC_URL + '/assets/img/sub07_03.png'} alt="" className='img03' />
                     </div>
 
-                    <div className="inner_sec">
-                        <h2>Check the Code : jQuery</h2>
-                        <p>React Library 활용하여 전체 페이지 구축 <br />
-                            Router Dom 사용하여 서브페이지 구성</p>
-                        <Highlight {...defaultProps} code={exampleCode} language="jsx">
-                            {({ className, style, tokens, getLineProps, getTokenProps }) => (
-                                <pre className={className} style={style}>
-                                    {tokens.map((line, i) => (
-                                        <div {...getLineProps({ line, key: i })}>
-                                            {line.map((token, key) => (
-                                                <span {...getTokenProps({ token, key })} />
-                                            ))}
-                                        </div>
-                                    ))}
-                                </pre>
-                            )}
-                        </Highlight>
-                    </div>
+
 
                     <div className="bottom">
                         <h3>{matchId.title}</h3>

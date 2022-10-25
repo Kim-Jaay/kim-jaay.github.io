@@ -39,6 +39,13 @@ const SubPageBanner = () => {
                                     <a href={matchId.outlink} target='_blank' className={`btn${matchId.id}`}  >View Page</a>
                                     : null
                             }
+                            {
+                                matchId.github
+                                    ?
+                                    <a href={matchId.github} target='_blank' className='git'  >View Code</a>
+                                    : null
+                            }
+
                             <i className="xi-close" onClick={backBtn}></i>
                         </div>
 
