@@ -6,14 +6,19 @@
                 .button {
                     position: fixed; display: flex; gap: 10px; right: calc(((100% - 300px) - 1200px)/2); top: 40px;
 
-                    a { padding: 12px 29px; background: #333; border-radius: 30px; color: white; font-weight: 500; }
-                    .git { color: white; padding: 12px 29px; font-size: 15px; background: #333; }
+                    a { padding: 12px 30px 8px 30px; background: #333; border-radius: 30px; color: white; font-weight: 500; font-size: 15px; }
+                    // view page btn color
                     .btn7 { background: #ffce26; }
                     .btn8 { background: #925a32; }
                     .btn9 { background: #2333ee; }
                     .btn10 { background: #e30a1e; }
                     .btn11 { background: #8e6b4a; }
                     .btn12 { background: #0031fc; }
+
+
+
+
+                    .git { color: white; padding: 12px 30px 8px 30px; font-size: 15px; background: #333; line-height: 1; }
                     i { cursor: pointer; font-size: 20px; padding: 10px; background: rgba($color: black, $alpha: 0.2); border-radius: 50%; color: white; }
                 }
                 .con {
