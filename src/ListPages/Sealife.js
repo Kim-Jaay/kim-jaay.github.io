@@ -96,15 +96,15 @@ const Sealife = () => {
     return (
         <div className='Sealife'>
             <div className="inner">
-                <img src={process.env.PUBLIC_URL + '/assets/img/sub12_00.jpg'} alt="" className='banner' />
+                <img src={process.env.PUBLIC_URL + '/assets/img/sub13_00.jpg'} alt="" className='banner' />
 
                 <div className="inner1200 subcon">
                     <h2>{matchId.title}</h2>
                     <p>{matchId.des2}</p>
                     <div className="img">
-                        <img src={process.env.PUBLIC_URL + '/assets/img/sub12_01.png'} alt="" className='img01' />
-                        <img src={process.env.PUBLIC_URL + '/assets/img/sub12_02.gif'} alt="" className='img02' />
-                        <img src={process.env.PUBLIC_URL + '/assets/img/sub12_03.png'} alt="" className='img03' />
+                        <img src={process.env.PUBLIC_URL + '/assets/img/sub13_01.png'} alt="" className='img01' />
+                        <img src={process.env.PUBLIC_URL + '/assets/img/sub13_02.gif'} alt="" className='img02' />
+                        <img src={process.env.PUBLIC_URL + '/assets/img/sub13_03.png'} alt="" className='img03' />
                     </div>
 
 

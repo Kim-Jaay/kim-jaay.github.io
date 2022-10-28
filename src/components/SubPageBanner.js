@@ -14,6 +14,7 @@ import Usm from '../ListPages/Usm';
 import Tamburins from '../ListPages/Tamburins';
 import Nasa from '../ListPages/Nasa';
 import HM from '../ListPages/H&M';
+import Dragon from '../ListPages/Dragon';
 import Louvre from '../ListPages/Louvre';
 import Sealife from '../ListPages/Sealife'
 
@@ -36,8 +37,9 @@ const SubPageBanner = () => {
         { id: 8, con: <Tamburins /> },
         { id: 9, con: <Nasa /> },
         { id: 10, con: <HM /> },
-        { id: 11, con: <Louvre /> },
-        { id: 12, con: <Sealife /> },
+        { id: 11, con: <Dragon /> },
+        { id: 12, con: <Louvre /> },
+        { id: 13, con: <Sealife /> },
     ]
 
 
