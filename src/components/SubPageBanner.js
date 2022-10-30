@@ -14,7 +14,6 @@ import Usm from '../ListPages/Usm';
 import Tamburins from '../ListPages/Tamburins';
 import Nasa from '../ListPages/Nasa';
 import HM from '../ListPages/H&M';
-import Dragon from '../ListPages/Dragon';
 import Louvre from '../ListPages/Louvre';
 import Sealife from '../ListPages/Sealife'
 
@@ -25,22 +24,6 @@ const SubPageBanner = () => {
     const { id } = useParams()
     const matchId = LIST.find(it => it.id == id);
 
-
-    const LINK = [
-        { id: 1, con: <Modivoa /> },
-        { id: 2, con: <Oncheon /> },
-        { id: 3, con: <Sososai /> },
-        { id: 4, con: <Namkwang /> },
-        { id: 5, con: <Songaree /> },
-        { id: 6, con: <Prime /> },
-        { id: 7, con: <Usm /> },
-        { id: 8, con: <Tamburins /> },
-        { id: 9, con: <Nasa /> },
-        { id: 10, con: <HM /> },
-        { id: 11, con: <Dragon /> },
-        { id: 12, con: <Louvre /> },
-        { id: 13, con: <Sealife /> },
-    ]
 
 
 
@@ -94,9 +77,18 @@ const SubPageBanner = () => {
             } */}
 
             <div className='SubContent'>
-                {
-                    LINK[id - 1].con
-                }
+                {id == 1 && <Modivoa />}
+                {id == 2 && <Oncheon />}
+                {id == 3 && <Sososai />}
+                {id == 4 && <Namkwang />}
+                {id == 5 && <Songaree />}
+                {id == 6 && <Prime />}
+                {id == 7 && <Usm />}
+                {id == 8 && <Tamburins />}
+                {id == 9 && <Nasa />}
+                {id == 10 && <HM />}
+                {id == 11 && <Louvre />}
+                {id == 12 && <Sealife />}
             </div>
 
 
