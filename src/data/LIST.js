@@ -141,7 +141,7 @@ const LIST = [
         github: 'https://github.com/Kim-Jaay/practice_react_02',
         des1: '프랑스 파리의 루브르 박물관은 세계 3대 박물관중 하나입니다.\n박물관이 보유한 다양한 작품들과 이미지를 나타낼 수 있는 고급스럽고 웅장한 \n이미지로 리디자인을 진행했습니다.',
         des2: '단순히 작품과 정보를 전달하는 것에서 더 나아가 방문한 사용자로 하여금 \n마치 박물관을 탐험하는 듯한 기분을 줄 수 있도록 디자인을 진행함.',
-        tools: ['jQuery /', ' Figma /', ' Photoshop'],
+        tools: ['React /', ' Figma /', ' Photoshop'],
         period: '7 Days',
         field: ['UXUI Design /', ' Web Development'],
     },
