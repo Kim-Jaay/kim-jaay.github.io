@@ -6,9 +6,24 @@
 
 
 		.MainInner {
-			display: flex ; gap: 10px; margin: 0 0 0 310px; padding: 10px 30px 100px 0;
+			 margin: 0 0 0 310px; padding: 10px 10px 100px 0;
 
-			.list { display: grid; grid-template-columns: 33.333% 33.333% 33.333%; gap: 10px; }
+			.list { display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px; }
+		}
+	}
+}
+@media(max-width:768px) {
+
+	.MainWrap {
+		background: black;
+		.Main {
+	
+	
+			.MainInner {
+				margin: 0 0 50px 0; padding: 0;
+	
+				.list { display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px; }
+			}
 		}
 	}
 }

@@ -13,3 +13,20 @@
         }
     }
 }
+@media(max-width:768px) {
+    .Footer {
+        color: white;
+
+        .inner {
+            padding-bottom: 50px; padding-left: 10px; font-weight: 300;
+
+            .logo { display: flex; flex-direction: column; gap: 10px; opacity: 0.7; margin: 0 0 15px 0; }
+            p { font-size: 15px; color: #888; margin: 0 0 30px 0; }
+            .contact {
+                font-size: 15px; color: #888;
+
+                a { display: block; margin: 0 0 5px 0; cursor: pointer; }
+            }
+        }
+    }
+}

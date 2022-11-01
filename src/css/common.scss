@@ -3,18 +3,44 @@
 .inner1200 { width: 1200px; margin: 0 auto; }
 .banner { margin: 0 0 100px 0; }
 .subcon {
+  h2 { font-size: 30px; font-weight: 600; color: black; margin: 0 0 20px 0; }
+  p { margin: 0 0 50px 0; white-space: pre; }
+  h3 { font-size: 20px; font-weight: 600; color: black; margin: 0 0 20px 0; }
+  strong { margin: 0 0 10px 0; white-space: pre; display: inline-block; line-height: 1.45; }
+  .code { margin: 0 0 70px 0; }
+  .bottom {
+    padding: 100px 0;
+
+    h3 { font-size: 20px; font-weight: 500; color: black; margin: 0 0 5px 0; }
+    p { font-size: 15px; margin: 0 0 20px 0; }
+    strong { display: inline-block; font-size: 14px; display: inline-block; margin: 0 0 5px 0; }
+    small { font-size: 14px; }
+  }
+}
+.inner_sec { padding: 100px 0; }
+
+
+ 
+@media(max-width:768px) {
+  .wrap { overflow-x: hidden; overflow-y: hidden !important; }
+  .inner { width: 100%; margin:0; padding: 0; }
+  .inner1200 { width: 100%; margin:0 15px; }
+  .banner { margin: 0 0 100px 0; }
+  .subcon {
     h2 { font-size: 30px; font-weight: 600; color: black; margin: 0 0 20px 0; }
     p { margin: 0 0 50px 0; white-space: pre; }
     h3 { font-size: 20px; font-weight: 600; color: black; margin: 0 0 20px 0; }
     strong { margin: 0 0 10px 0; white-space: pre; display: inline-block; line-height: 1.45; }
     .code { margin: 0 0 70px 0; }
+    
     .bottom {
-        padding: 100px 0;
+      padding: 100px 0;
 
-        h3 { font-size: 20px; font-weight: 500; color: black; margin: 0 0 5px 0; }
-        p { font-size: 15px; margin: 0 0 20px 0; }
-        strong { display: inline-block; font-size: 14px; display: inline-block; margin: 0 0 5px 0; }
-        small { font-size: 14px; }
+      h3 { font-size: 20px; font-weight: 500; color: black; margin: 0 0 5px 0; }
+      p { font-size: 15px; margin: 0 0 20px 0; }
+      strong { display: inline-block; font-size: 14px; display: inline-block; margin: 0 0 5px 0; }
+      small { font-size: 14px; }
     }
+  }
+  .inner_sec { padding: 100px 0; }
 }
-.inner_sec { padding: 100px 0; }
