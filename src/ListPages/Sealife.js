@@ -1,6 +1,7 @@
 import React from 'react'
 import { useParams } from 'react-router-dom';
 import '../css/Sealife.scss'
+import styled from "styled-components";
 import LIST from '../data/List';
 
 import Highlight, { defaultProps } from "prism-react-renderer";
@@ -89,6 +90,14 @@ const Sealife = () => {
 
     `;
 
+    const Pre = styled.pre
+        `
+      text-align: left;
+      margin: 1em 0;
+      padding: 0.5em;
+      overflow: scroll;
+    `;
+
 
 
     const { id } = useParams()
@@ -118,7 +127,7 @@ const Sealife = () => {
                         <div className='code_highlight'>
                             <Highlight {...defaultProps} code={AppCode} language="jsx" >
                                 {({ className, style, tokens, getLineProps, getTokenProps }) => (
-                                    <pre className={className} style={style}>
+                                    <Pre className={className} style={style}>
                                         {tokens.map((line, i) => (
                                             <div {...getLineProps({ line, key: i })}>
                                                 {line.map((token, key) => (
@@ -126,7 +135,7 @@ const Sealife = () => {
                                                 ))}
                                             </div>
                                         ))}
-                                    </pre>
+                                    </Pre>
                                 )}
                             </Highlight>
                         </div>
@@ -138,7 +147,7 @@ const Sealife = () => {
                         <div className='code_highlight'>
                             <Highlight {...defaultProps} code={MainNavCode} language="jsx" >
                                 {({ className, style, tokens, getLineProps, getTokenProps }) => (
-                                    <pre className={className} style={style}>
+                                    <Pre className={className} style={style}>
                                         {tokens.map((line, i) => (
                                             <div {...getLineProps({ line, key: i })}>
                                                 {line.map((token, key) => (
@@ -146,7 +155,7 @@ const Sealife = () => {
                                                 ))}
                                             </div>
                                         ))}
-                                    </pre>
+                                    </Pre>
                                 )}
                             </Highlight>
                         </div>
@@ -158,7 +167,7 @@ const Sealife = () => {
                         <div className='code_highlight'>
                             <Highlight {...defaultProps} code={SubPageCode} language="jsx" >
                                 {({ className, style, tokens, getLineProps, getTokenProps }) => (
-                                    <pre className={className} style={style}>
+                                    <Pre className={className} style={style}>
                                         {tokens.map((line, i) => (
                                             <div {...getLineProps({ line, key: i })}>
                                                 {line.map((token, key) => (
@@ -166,7 +175,7 @@ const Sealife = () => {
                                                 ))}
                                             </div>
                                         ))}
-                                    </pre>
+                                    </Pre>
                                 )}
                             </Highlight>
                         </div>
