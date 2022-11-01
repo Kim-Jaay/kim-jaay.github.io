@@ -10,3 +10,21 @@
         }
     }
 }
+@media(max-width:768px) {
+
+
+    .Sealife {
+        .banner{ object-fit: cover; height:250px; }
+
+        h2,h3 { font-size: 20px; margin: 0 0 10px 0; }
+        p,strong { width: 100%; white-space: unset; font-size: 14px; word-break: keep-all; margin: 0 0 20px 0; }
+        .code { overflow-x: scroll; }
+        .inner1200 {
+            .img {
+                display: flex; flex-direction: column; gap: 10px; margin: 0 0 100px 0;
+
+                .img02 { object-fit: cover; height:200px; border-radius: 5px; }
+            }
+        }
+    }
+}
