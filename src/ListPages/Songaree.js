@@ -7,7 +7,7 @@ const Songaree = () => {
     const { id } = useParams()
     const matchId = LIST.find(it => it.id == id);
     return (
-        <div className='Songaree'>
+        <div className='Songaree Con' >
             <div className="inner">
                 <img src={process.env.PUBLIC_URL + '/assets/img/sub05_00.jpg'} alt="" className='banner' />
 

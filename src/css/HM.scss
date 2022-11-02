@@ -9,3 +9,10 @@
         }
     }
 }
+@media(max-width:768px) {
+    .HM {
+        .inner1200 {
+            .img { display: flex; flex-direction: column; gap: 10px; }
+        }
+    }
+}

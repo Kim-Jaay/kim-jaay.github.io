@@ -9,7 +9,7 @@ const Nasa = () => {
     const { id } = useParams()
     const matchId = LIST.find(it => it.id == id);
     return (
-        <div className='Nasa'>
+        <div className='Nasa Con'>
             <div className="inner">
                 <img src={process.env.PUBLIC_URL + `/assets/img/sub09_00.jpg`} alt="" className='banner' />
 

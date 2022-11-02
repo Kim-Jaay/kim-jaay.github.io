@@ -126,7 +126,7 @@ const Louvre = () => {
     const { id } = useParams()
     const matchId = LIST.find(it => it.id == id);
     return (
-        <div className='Louvre'>
+        <div className='Louvre Con'>
             <div className="inner">
                 <img src={process.env.PUBLIC_URL + '/assets/img/sub12_00.jpg'} alt="" className='banner' />
                 <div className="inner1200 subcon">

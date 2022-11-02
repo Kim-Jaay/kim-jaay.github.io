@@ -10,7 +10,7 @@ const Usm = () => {
     const { id } = useParams()
     const matchId = LIST.find(it => it.id == id);
     return (
-        <div className='Usm'>
+        <div className='Usm Con'>
             <div className="inner">
                 <img src={process.env.PUBLIC_URL + '/assets/img/sub07_00.jpg'} alt="" className='banner' />
 

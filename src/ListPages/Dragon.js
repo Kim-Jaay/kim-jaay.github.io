@@ -10,7 +10,7 @@ const Dragon = () => {
     const { id } = useParams()
     const matchId = LIST.find(it => it.id == id);
     return (
-        <div className='Dragon'>
+        <div className='Dragon Con'>
             <div className="inner">
                 <img src={process.env.PUBLIC_URL + '/assets/img/sub11_00.jpg'} alt="" className='banner' />
                 <div className="inner1200 subcon">

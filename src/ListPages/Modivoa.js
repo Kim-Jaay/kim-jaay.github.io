@@ -7,7 +7,7 @@ const Modivoa = () => {
     const { id } = useParams()
     const matchId = LIST.find(it => it.id == id);
     return (
-        <div className='Modivoa'>
+        <div className='Modivoa Con'>
             <div className="inner">
                 <img src={process.env.PUBLIC_URL + '/assets/img/sub01_00.jpg'} alt="" className='banner' />
 

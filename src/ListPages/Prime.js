@@ -7,7 +7,7 @@ const Prime = () => {
     const matchId = LIST.find(it => it.id == id);
     return (
 
-        <div className='Prime'>
+        <div className='Prime Con'>
             <div className="inner">
                 <img src={process.env.PUBLIC_URL + '/assets/img/sub06_00.jpg'} alt="" className='banner' />
 

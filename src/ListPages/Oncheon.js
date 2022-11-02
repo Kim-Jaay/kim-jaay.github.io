@@ -7,7 +7,7 @@ const Oncheon = () => {
     const { id } = useParams()
     const matchId = LIST.find(it => it.id == id);
     return (
-        <div className='Oncheon'>
+        <div className='Oncheon Con'>
             <div className="inner">
                 <img src={process.env.PUBLIC_URL + '/assets/img/sub02_00.jpg'} alt="" className='banner' />
 
