@@ -13,11 +13,8 @@ const Header = () => {
                     </Link>
                 </h1>
                 <div className="intro">
-                    <p>Hello,👋 I'm Jay. <br />
-                        I’m a <span>Service Designer & Front-End<br />
-                            Developer.</span> I always try to craft new <br />
-                        experiences through challenges and <br />
-                        immersion.
+                    <p>Hello,👋 I'm Jay.<br />
+                        I’m a <span>Service Designer & Front-End Developer.</span><br /> I always try to craft new experiences through challenges and immersion.
                     </p>
                 </div>
                 <nav>
