@@ -29,7 +29,8 @@
               display: none;
             }
             .main_nav {
-                li { font-size: 24px; margin: 0; padding: 0 10px; color: #888; display:inline-block; }
+                li { font-size:20px; margin: 0; padding: 0 10px; color: #888; display:inline-block;
+                p{font-size: 0;} }
             }
         }
     }
