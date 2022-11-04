@@ -21,7 +21,8 @@
 }
 @media(max-width:768px) {
 	.Songaree {
-		.img01 { margin: 0 15px; width: auto; }
+		.img01 { margin-right: 0; margin-left: 15px; width: calc(100% - 15px); }
+		.img02 { margin-left: 0; margin-right: 15px; width: calc(100% - 15px); }
 		.inner_sec { padding: 50px 0; }
 		.iot {
 			background: #f9f9f9;
@@ -30,8 +31,9 @@
 				p { margin-bottom: 30px; }
 			}
 		}
-		.needs { height: 400px; }
-		.develop01 { height: 400px; }
-		.develop02 { height: 300px; }
+		.needs { height: 400px;
+		background: url(../../public/assets/img/sub05_04_2.png)no-repeat center bottom/cover; height: 400px; }
+		.develop01 { background: url(../../public/assets/img/sub05_07_2.png)no-repeat center bottom/cover; height: 400px; }
+		.develop02 {background: url(../../public/assets/img/sub05_08_2.png)no-repeat center bottom/cover; height: 450px; }
 	}
 }
