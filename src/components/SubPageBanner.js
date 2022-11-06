@@ -83,16 +83,6 @@ const SubPageBanner = () => {
                 </div>
             </div>
 
-            {/* {
-                matchId.map((it, idx) => {
-                    return (
-                        <div>
-                            {id == idx + 1 && < ${it.name} />}
-                        </div>
-                    )
-                })
-            } */}
-
             <div className='SubContent'>
                 {
                     LINK[id - 1].con
