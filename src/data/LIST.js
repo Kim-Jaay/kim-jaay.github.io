@@ -158,6 +158,19 @@ const LIST = [
         period: '14 Days',
         field: ['UXUI Design /', ' Web Development'],
     },
+    {
+        id: 14,
+        name: 'Charz',
+        title: 'EV CHARZ',
+        link: '/14',
+        outlink: 'https://kim-jaay.github.io/practice_react_03/',
+        github: 'https://github.com/Kim-Jaay/practice_react_03',
+        des1: 'Sealife Busan은 바닷속 신비로움을 선물하는 부산의 대표 랜드마크입니다. \n운영중인 공연서비스와 안내사항을 효과적으로 전달하기위한 새로운 레이아웃을 구상하였으며, \n접근성을 상승시켜 사용자경험을 리뉴얼하기위한 리디자인 및 구축을 진행했습니다.',
+        des2: '홈페이지 리디자인을 통한 브랜드 아이덴티티 구축, \n브랜드가 가진 이미지와 운영 서비스를 효과적으로 전달할 수 있는 브랜드 전략 수립.',
+        tools: ['React /', ' Figma /', ' Photoshop'],
+        period: '14 Days',
+        field: ['UXUI Design /', ' Web Development'],
+    },
 
 ]
 
