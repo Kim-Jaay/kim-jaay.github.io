@@ -78,7 +78,7 @@ const LIST = [
         des2: '세련되고 간결한 비례미를 지닌 USM의 절대 미학 가치를 홈페이지 디자인에 반영하여 \n방문자로 하여금 USM 쇼룸을 둘러보는 느낌을 주기위해 브랜드의 무드를 담아 디자인함. ',
         tools: ['jQuery /', ' Figma /', ' Photoshop'],
         period: '14 Days',
-        field: ['UXUI Design /', ' Web Development'],
+        field: ['UXUI Design /', ' Web Design /', ' Web Development'],
     },
     {
         id: 8,
@@ -91,7 +91,7 @@ const LIST = [
         des2: '브랜드가 추구하는 컨셉을 고객에게 선명하게 전달하기 위해 단순 쇼핑몰이 아닌, \n하나의 갤러리 같이 느껴지도록 레이아웃을 구성함.',
         tools: ['jQuery /', ' Figma /', ' Photoshop'],
         period: '7 Days',
-        field: ['UXUI Design /', ' Web Development'],
+        field: ['UXUI Design /', ' Web Design /', ' Web Development'],
     },
     {
         id: 9,
@@ -104,7 +104,7 @@ const LIST = [
         des2: '우주를 떠다니는 듯한 모션으로 깊이감을 표현했으며, \n스토리 진행에 따라 시선이 흐를 수 있도록 이미지를 배치, 디자인 진행함.',
         tools: ['React /', ' Figma /', ' Photoshop'],
         period: '14 Days',
-        field: ['UXUI Design /', ' Web Development'],
+        field: ['UXUI Design /', ' Web Design /', ' Web Development'],
     },
     {
         id: 10,
@@ -117,7 +117,7 @@ const LIST = [
         des2: 'H&M의 브랜드컬러를 포인트 컬러로 활용했으며, 깔끔한 레이아웃과 정형화된 \n그리드시스템을 사용하여 사용자가 사이트 내에서 헤매는 것을 방지할 수 있도록 함.',
         tools: ['Vanilla JS /', ' Figma /', ' Photoshop'],
         period: '7 Days',
-        field: ['UXUI Design /', ' Web Development'],
+        field: ['UXUI Design /', ' Web Design /', ' Web Development'],
     },
     {
         id: 11,
@@ -130,7 +130,7 @@ const LIST = [
         des2: '창의적이고 독창적인 이미지를 표현하며, 정보의 명료한 전달력과 \n포트폴리오를 잘 나타낼 수 있도록 디자인함. ',
         tools: ['Vanilla JS /', ' Figma /', ' Photoshop'],
         period: '7 Days',
-        field: ['UXUI Design /', ' Web Development'],
+        field: ['UXUI Design /', ' Web Design /', ' Web Development'],
     },
     {
         id: 12,
@@ -143,7 +143,7 @@ const LIST = [
         des2: '단순히 작품과 정보를 전달하는 것에서 더 나아가 방문한 사용자로 하여금 \n마치 박물관을 탐험하는 듯한 기분을 줄 수 있도록 디자인을 진행함.',
         tools: ['React /', ' Figma /', ' Photoshop'],
         period: '7 Days',
-        field: ['UXUI Design /', ' Web Development'],
+        field: ['UXUI Design /', ' Web Design /', ' Web Development'],
     },
     {
         id: 13,
@@ -156,7 +156,7 @@ const LIST = [
         des2: '홈페이지 리디자인을 통한 브랜드 아이덴티티 구축, \n브랜드가 가진 이미지와 운영 서비스를 효과적으로 전달할 수 있는 브랜드 전략 수립.',
         tools: ['React /', ' Figma /', ' Photoshop'],
         period: '14 Days',
-        field: ['UXUI Design /', ' Web Development'],
+        field: ['UXUI Design /', ' Web Design /', ' Web Development'],
     },
 
 
