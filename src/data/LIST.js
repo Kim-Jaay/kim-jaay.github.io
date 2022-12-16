@@ -158,6 +158,19 @@ const LIST = [
         period: '7 Days',
         field: ['UXUI Design /', ' Web Design /', ' Web Development'],
     },
+    {
+        id: 14,
+        name: 'COS',
+        title: 'COS',
+        link: '/14',
+        outlink: 'https://kim-jaay.github.io/practice_react_04_cos/',
+        github: 'https://github.com/Kim-Jaay/practice_react_04_cos',
+        des1: 'coscos',
+        des2: 'coscoscos',
+        tools: ['React /', ' Figma /', ' Photoshop'],
+        period: '7 Days',
+        field: ['UXUI Design /', ' Web Design /', ' Web Development'],
+    },
 
 
 ]

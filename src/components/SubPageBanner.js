@@ -17,6 +17,7 @@ import HM from '../ListPages/H&M';
 import Dragon from '../ListPages/Dragon';
 import Louvre from '../ListPages/Louvre';
 import Sealife from '../ListPages/Sealife'
+import Cos from '../ListPages/Cos';
 
 
 const SubPageBanner = () => {
@@ -40,6 +41,7 @@ const SubPageBanner = () => {
         { id: 11, con: <Dragon /> },
         { id: 12, con: <Louvre /> },
         { id: 13, con: <Sealife /> },
+        { id: 14, con: <Cos /> },
     ]
 
 
