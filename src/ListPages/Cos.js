@@ -1,7 +1,7 @@
 import React from 'react'
 import { useParams } from 'react-router-dom';
 import LIST from '../data/List';
-
+import '../css/Cos.scss'
 
 
 
@@ -17,9 +17,10 @@ const Cos = () => {
                     <h2>{matchId.title}</h2>
                     <p>{matchId.des2}</p>
                     <div className="img">
-                        <img src={process.env.PUBLIC_URL + '/assets/img/sub11_01.gif'} alt="" className='img01' />
-                        <img src={process.env.PUBLIC_URL + '/assets/img/sub11_02.png'} alt="" className='img02' />
-                        <img src={process.env.PUBLIC_URL + '/assets/img/sub11_03.png'} alt="" className='img03' />
+                        <img src={process.env.PUBLIC_URL + '/assets/img/sub14_01.png'} alt="" className='img01' />
+                        <img src={process.env.PUBLIC_URL + '/assets/img/sub14_02.png'} alt="" className='img02' />
+                        <img src={process.env.PUBLIC_URL + '/assets/img/sub14_03.png'} alt="" className='img03' />
+
                     </div>
 
 
