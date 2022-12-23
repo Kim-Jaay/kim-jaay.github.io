@@ -12,7 +12,13 @@ const Cos = () => {
     return (
         <div className='Cos Con'>
             <div className="inner">
-                <video autoPlay loop muted src={process.env.PUBLIC_URL + '/assets/img/sub14_00.mp4'} className='banner' />
+                <video
+                    autoPlay
+                    loop
+                    muted
+                    src={process.env.PUBLIC_URL + '/assets/img/sub14_00.mp4'}
+                    className='banner'
+                />
                 <div className="inner1200 subcon">
                     <h2>{matchId.title}</h2>
                     <p>{matchId.des2}</p>
@@ -20,7 +26,6 @@ const Cos = () => {
                         <img src={process.env.PUBLIC_URL + '/assets/img/sub14_01.png'} alt="" className='img01' />
                         <img src={process.env.PUBLIC_URL + '/assets/img/sub14_02.png'} alt="" className='img02' />
                         <img src={process.env.PUBLIC_URL + '/assets/img/sub14_03.png'} alt="" className='img03' />
-
                     </div>
 
 

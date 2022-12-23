@@ -1,5 +1,6 @@
 import React from 'react'
-
+import { Link } from 'react-router-dom'
+import NAV from '../data/Nav.js'
 
 const MainNav = () => {
     return (
