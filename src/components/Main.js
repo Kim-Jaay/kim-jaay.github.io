@@ -24,9 +24,7 @@ const Main = () => {
                                                 <img src={process.env.PUBLIC_URL + `/assets/img/main_0${idx + 1}.png`} alt="" />
                                             </Link>
                                             <div className="thumbdes">
-                                                <h2>
-                                                    {it.title}
-                                                </h2>
+                                                <h2>{it.title}</h2>
                                                 <p>{it.field}</p>
                                             </div>
                                         </li>
