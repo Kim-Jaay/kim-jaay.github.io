@@ -29,10 +29,8 @@ const Main = () => {
                                             </div>
                                         </li>
                                     )
-                                })
-                                .reverse()
+                                }).reverse()
                         }
-
                     </ul>
                 </div>
             </main >
