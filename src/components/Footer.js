@@ -13,7 +13,7 @@ const Footer = () => {
                         </Link>
                     </h1>
                     <h1>
-                        <a href="https://namecard.kakao.com/kimjay" target='_blank'>
+                        <a href="https://open.kakao.com/o/sSuaUfof" target='_blank'>
                             <img src={process.env.PUBLIC_URL + '/assets/img/logo02.svg'} alt="" />
                         </a>
                     </h1>
