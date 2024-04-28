@@ -26,6 +26,7 @@ const Footer = () => {
                 </div>
                 <div className='copy'>
                     <span>본 페이지는 개인 포트폴리오용으로 제작되었습니다.</span>
+                    <span>PC 화면에 최적화된 홈페이지입니다.</span>
                     <span>© 2022 Jay. All Rights Reserved.</span>
                 </div>
 
